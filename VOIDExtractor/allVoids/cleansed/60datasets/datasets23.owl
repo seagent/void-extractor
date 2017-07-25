@@ -1,0 +1,32 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/23#indv_0.5585485434978746">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://statistics.data.gov.uk/def/geography/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.ordnancesurvey.co.uk/ontology/admingeo/</j.0:uriSpace>
+    <j.0:uriSpace>http://statistics.data.gov.uk/def/</j.0:uriSpace>
+    <j.0:uriSpace>http://statistics.data.gov.uk/id/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/net/provenance/types#</j.0:vocabulary>
+    <j.0:vocabulary>http://data.ordnancesurvey.co.uk/ontology/</j.0:vocabulary>
+    <j.0:uriSpace>http://statistics.data.gov.uk/set/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://rdfs.org/ns/void#</j.0:vocabulary>
+    <j.0:uriSpace>http://api.talis.com/stores/govuk-statistics/items/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://services.data.gov.uk/statistics/sparql</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/net/provenance/ns#</j.0:vocabulary>
+    <j.0:triples>343733</j.0:triples>
+    <j.0:uriSpace>http://www.jenitennison.com/log/data.gov.uk/statistics/source/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2006/http#</j.0:vocabulary>
+    <j.0:vocabulary>http://statistics.data.gov.uk/def/</j.0:vocabulary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+</rdf:RDF>

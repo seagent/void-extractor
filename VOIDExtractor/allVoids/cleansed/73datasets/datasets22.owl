@@ -1,0 +1,49 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/22#indv_0.8301085388428726">
+    <j.0:uriSpace>http://www.openlinksw.com/virtrdf-data-formats#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/virtrdf#</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://id.sgcb.mcu.es/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://uberblic.org/ontology/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://poolparty.punkt.at/demozone/ont#</j.0:uriSpace>
+    <j.0:uriSpace>http://id.sgcb.mcu.es/DAV/VAD/</j.0:uriSpace>
+    <j.0:uriSpace>http://opengraphprotocol.org/schema/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/12/cal/ical#</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/goodrelations/v1#</j.0:uriSpace>
+    <j.0:uriSpace>http://id.sgcb.mcu.es/Autoridades/</j.0:uriSpace>
+    <j.0:uriSpace>http://linkedopencommerce.com/schemas/icecat/v1/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/sparql/</j.0:uriSpace>
+    <j.0:uriSpace>http://xmlns.com/foaf/0.1/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/DAV#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.geonames.org/ontology#</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/virtrdf#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:uriSpace>http://rdf.freebase.com/ns/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.sgcb.mcu.es/DAV/home/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://www.w3.org/2008/05/skos#</j.0:uriSpace>
+    <j.0:uriSpace>http://s.opencalais.com/1/type/er/</j.0:uriSpace>
+    <j.0:triples>167989</j.0:triples>
+    <j.0:uriSpace>http://purl.org/dc/elements/1.1/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2000/01/rdf-schema#</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/ontology/</j.0:uriSpace>
+    <j.0:uriSpace>http://usefulinc.com/ns/doap#</j.0:uriSpace>
+    <j.0:uriSpace>http://aims.fao.org/aos/geopolitical.owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/ontology/bibo/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2004/02/skos/core#</j.0:uriSpace>
+    <j.0:uriSpace>http://s.opencalais.com/1/pred/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/07/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/07/owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://id.sgcb.mcu.es/DAV/home/lod/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/dc/terms/</j.0:uriSpace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/22">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

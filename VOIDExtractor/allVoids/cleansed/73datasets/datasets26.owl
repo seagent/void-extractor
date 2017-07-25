@@ -1,0 +1,63 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/26#indv_0.9366561581979931">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://kota.s12.xrea.com/vocab/uranai#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.morelab.deusto.es/images/stories/</j.0:uriSpace>
+    <j.0:uriSpace>file:///home/mikel/PROYECTOS/linked_data_plugin/foaf/gomez-goiri.rdf#</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://dbpedia.org/resource/Machine_Learning/</j.0:uriSpace>
+    <j.0:uriSpace>http://paginaspersonales.deusto.es/aitor.almeida/images/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2001/sw/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/page/aitor-almeida#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/pcuriel#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/unai-aguilera#</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://swrc.ontoware.org/ontology#</j.0:vocabulary>
+    <j.0:uriSpace>file:///home/mikel/PROYECTOS/linked_data_plugin/foaf/gomez-goiri.rdf~#</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/page/Data_mining/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/koldo-zabaleta#</j.0:uriSpace>
+    <j.0:uriSpace>http://littera.deusto.es/prof/abaitua/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/xabier-larrakoetxea#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/iraide-diaz#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/page/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/diego-casado-mansilla#</j.0:uriSpace>
+    <j.0:vocabulary>http://webns.net/mvcb/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.daml.org/2001/10/html/airport-ont#</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://dbpedia.org/resource/Data_mining/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/resource/Fuzzy_Logic/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/mikel-emaldi#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/aitor-almeida#</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/ontology/bibo/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/data/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/page/Fuzzy_Logic/</j.0:uriSpace>
+    <j.0:uriSpace>http://sws.geonames.org/6299328/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/page/Machine_Learning/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/page/</j.0:uriSpace>
+    <j.0:uriSpace>http://paginaspersonales.deusto.es/alrayon/resources/</j.0:uriSpace>
+    <j.0:vocabulary>http://rdfs.org/sioc/ns#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/dipina#</j.0:uriSpace>
+    <j.0:vocabulary>http://swrc.ontoware.org/ontology-07#</j.0:vocabulary>
+    <j.0:uriSpace>http://paginaspersonales.deusto.es/josuka/foaf.rdf#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/fcastanedo#</j.0:uriSpace>
+    <j.0:uriSpace>http://paginaspersonales.deusto.es/josuka/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/aitor-gomez-goiri#</j.0:uriSpace>
+    <j.0:uriSpace>http://airports.dataincubator.org/airports/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/vocab/relationship/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.morelab.deusto.es/resource/jon-lazaro#</j.0:uriSpace>
+    <j.0:triples>3561</j.0:triples>
+    <j.0:vocabulary>http://www.w3.org/2000/10/swap/pim/contact#</j.0:vocabulary>
+    <j.0:uriSpace>http://dbpedia.org/resource/</j.0:uriSpace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/26">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

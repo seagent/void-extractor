@@ -1,0 +1,60 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/13#indv_0.17417062149736517">
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://iflastandards.info/ns/isbd/elements/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:uriSpace>http://iflastandards.info/ns/fr/frbr/frbrer/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/BNE/resource/C1003/</j.0:uriSpace>
+    <j.0:vocabulary>http://iflastandards.info/ns/fr/frbr/frbrer/</j.0:vocabulary>
+    <j.0:uriSpace>http://iflastandards.info/ns/fr/frad/</j.0:uriSpace>
+    <j.0:triples>344439</j.0:triples>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/conductor/images/icons/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/conductor/help/</j.0:uriSpace>
+    <j.0:vocabulary>http://cultura.linkeddata.es/ontology/frad/</j.0:vocabulary>
+    <j.0:uriSpace>http://cultura.linkeddata.es/BNE/resource/C1002/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.openlinksw.com/sparql/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/conductor/images/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/ontology/frsad/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/ontology/frad/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/conductor/</j.0:uriSpace>
+    <j.0:vocabulary>http://metadataregistry.org/uri/profile/RegAp/</j.0:vocabulary>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/conductor/syntax/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/ontology/frbrer/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/BNE/resource/C1001/</j.0:uriSpace>
+    <j.0:vocabulary>http://cultura.linkeddata.es/ontology/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/DAV#</j.0:vocabulary>
+    <j.0:uriSpace>http://cultura.linkeddata.es/BNE/resource/C1006/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/conductor/toolkit/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/ontology/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/07/</j.0:uriSpace>
+    <j.0:uriSpace>http://metadataregistry.org/uri/RegStatus/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/virtrdf#</j.0:vocabulary>
+    <j.0:vocabulary>http://cultura.linkeddata.es/ontology/frbrer/</j.0:vocabulary>
+    <j.0:vocabulary>http://cultura.linkeddata.es/ontology/isbd/</j.0:vocabulary>
+    <j.0:vocabulary>http://iflastandards.info/ns/fr/frad/</j.0:vocabulary>
+    <j.0:uriSpace>http://localhost:8905/DAV/home/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8905/DAV/VAD/conductor/images/dav_browser/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/BNE/resource/C1005/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.w3.org/2002/07/owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2000/01/rdf-schema#</j.0:uriSpace>
+    <j.0:uriSpace>http://iflastandards.info/ns/fr/frsad/</j.0:uriSpace>
+    <j.0:uriSpace>http://cultura.linkeddata.es/ontology/isbd/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/virtrdf#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/virtrdf-data-formats#</j.0:uriSpace>
+    <j.0:vocabulary>http://iflastandards.info/ns/isbd/elements/</j.0:vocabulary>
+  </rdf:Description>
+</rdf:RDF>

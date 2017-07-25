@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/31#indv_0.28444693961207723">
+    <j.0:uriSpace>http://business.data.gov.uk/id/company/</j.0:uriSpace>
+    <j.0:vocabulary>http://data.ordnancesurvey.co.uk/ontology/postcode/</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/ns/org#</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:vocabulary>http://reference.data.gov.uk/def/reference/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2006/vcard/ns#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://research.data.gov.uk/id/project/tsb/</j.0:uriSpace>
+    <j.0:triples>15237</j.0:triples>
+    <j.0:vocabulary>http://rdfs.org/ns/void#</j.0:vocabulary>
+    <j.0:vocabulary>http://research.data.gov.uk/def/project/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/31">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

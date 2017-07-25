@@ -1,0 +1,69 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/35#indv_0.0945882344901553">
+    <j.0:vocabulary>http://purl.org/ontology/bibo/</j.0:vocabulary>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj019/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj025/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj003/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj021/</j.0:uriSpace>
+    <j.0:uriSpace>http://j.ukc2.com/t/</j.0:uriSpace>
+    <j.0:uriSpace>http://climb.dataincubator.org/styles/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj036/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj032/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://open.vocab.org/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://schemas.talis.com/2005/dir/schema#</j.0:vocabulary>
+    <j.0:vocabulary>http://climb.dataincubator.org/vocabs/climb/</j.0:vocabulary>
+    <j.0:vocabulary>http://rdfs.org/ns/void#</j.0:vocabulary>
+    <j.0:uriSpace>http://i.ukc2.com/t/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj013/</j.0:uriSpace>
+    <j.0:uriSpace>http://climb.dataincubator.org/guidebooks/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/vocab/changeset/schema#</j.0:vocabulary>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj034/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/net/compass#</j.0:vocabulary>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj009/</j.0:uriSpace>
+    <j.0:uriSpace>http://climb.dataincubator.org/venues/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj005/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj024/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj020/</j.0:uriSpace>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.ukclimbing.com/logbook/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj018/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj011/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj015/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj033/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/resource/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj030/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj029/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj022/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj026/</j.0:uriSpace>
+    <j.0:triples>174120</j.0:triples>
+    <j.0:uriSpace>http://climb.dataincubator.org/grades/</j.0:uriSpace>
+    <j.0:uriSpace>http://climb.dataincubator.org/locations/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj035/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj006/</j.0:uriSpace>
+    <j.0:uriSpace>http://climb.dataincubator.org/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2007/ont/httph#</j.0:vocabulary>
+    <j.0:uriSpace>http://</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj017/</j.0:uriSpace>
+    <j.0:uriSpace>http://climb.dataincubator.org/rockTypes/</j.0:uriSpace>
+    <j.0:uriSpace>http://climb.dataincubator.org/datasets/</j.0:uriSpace>
+    <j.0:uriSpace>http://api.talis.com/stores/climb/items/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj016/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj028/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj010/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:vocabulary>
+    <j.0:uriSpace>http://climb.dataincubator.org/graphs/</j.0:uriSpace>
+    <j.0:uriSpace>http://smcjournals.dataincubator.org/smcj027/</j.0:uriSpace>
+  </rdf:Description>
+</rdf:RDF>

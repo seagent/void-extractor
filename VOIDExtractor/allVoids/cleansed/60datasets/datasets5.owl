@@ -1,0 +1,21 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/5#indv_0.2082492260945482">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www4.wiwiss.fu-berlin.de/stitch/sparql</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://www4.wiwiss.fu-berlin.de/stitch/resource/stitch/</j.0:vocabulary>
+    <j.0:uriSpace>http://www4.wiwiss.fu-berlin.de/stitch/resource/chemicals/</j.0:uriSpace>
+    <j.0:uriSpace>http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/</j.0:uriSpace>
+    <j.0:uriSpace>http://www4.wiwiss.fu-berlin.de/stitch/resource/interactions/</j.0:uriSpace>
+    <j.0:uriSpace>http://www4.wiwiss.fu-berlin.de/stitch/resource/proteins/</j.0:uriSpace>
+    <j.0:triples>55099700</j.0:triples>
+  </rdf:Description>
+</rdf:RDF>

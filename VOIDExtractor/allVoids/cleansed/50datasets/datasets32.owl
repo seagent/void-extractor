@@ -1,0 +1,22 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/32">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/32#indv_0.8419333741269911">
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dewey.info/sparql.php</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:triples>402288</j.0:triples>
+    <j.0:uriSpace>http://dewey.info/scheme/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/1999/xhtml/vocab#</j.0:vocabulary>
+    <j.0:uriSpace>http://dewey.info/class/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://creativecommons.org/ns#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+  </rdf:Description>
+</rdf:RDF>

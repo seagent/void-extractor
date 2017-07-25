@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/11#indv_0.4217072796073814">
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/susu-events/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/bus-stop/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/point-of-service/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/room/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://sparql.data.southampton.ac.uk/</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://maps.google.com/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/events-diary/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/app/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/jargon-term/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/bus-routes/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/phonebook/2011-03-24/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/datasets/</j.0:uriSpace>
+    <j.0:triples>200</j.0:triples>
+    <j.0:uriSpace>http://id.southampton.ac.uk/pressinfo/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/programme/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/finance-ns/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/international-links/</j.0:uriSpace>
+    <j.0:uriSpace>http://sws.geonames.org/1821275/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://data.southampton.ac.uk/images/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/person/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/catering/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/supplier/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.edshare.soton.ac.uk/id/eprint/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/cls-extras/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/org/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/openorg/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/diary/</j.0:uriSpace>
+    <j.0:uriSpace>http://sws.geonames.org/2275384/</j.0:uriSpace>
+    <j.0:uriSpace>http://sws.geonames.org/239880/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://id.southampton.ac.uk/opendays/</j.0:uriSpace>
+    <j.0:uriSpace>http://archive.zepler.tv/id/document/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/programme-theme/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/country/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/jacs/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/syllabus/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/edshare/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/building/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/opendays-july-2011/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/event/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/dataset/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/org/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/payments/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/module-instance/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/generic-products-and-services/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.edshare.soton.ac.uk/id/document/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/pressinfo/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/module/</j.0:uriSpace>
+    <j.0:uriSpace>http://id.southampton.ac.uk/bus-route/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.southampton.ac.uk/dumps/vending-machines/</j.0:uriSpace>
+  </rdf:Description>
+</rdf:RDF>

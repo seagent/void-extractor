@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/8">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/8#indv_0.15193971322979205">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://greek-lod.math.auth.gr/police/resource/crimes/</j.0:uriSpace>
+    <j.0:uriSpace>http://greek-lod.math.auth.gr/police/resource/regions/</j.0:uriSpace>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://greek-lod.math.auth.gr/police/resource/gad/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://greek-lod.math.auth.gr/police/sparql</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://el.dbpedia.org/resource/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:vocabulary>
+    <j.0:triples>84082</j.0:triples>
+    <j.0:uriSpace>http://greek-lod.math.auth.gr/police/resource/categories/</j.0:uriSpace>
+    <j.0:vocabulary>http://greek-lod.math.auth.gr/police/resource/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://crime.psi.enakting.org/id/</j.0:vocabulary>
+  </rdf:Description>
+</rdf:RDF>

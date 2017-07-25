@@ -1,0 +1,46 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/37#indv_0.7082315781353118">
+    <j.0:vocabulary>http://www.w3.org/2006/time#</j.0:vocabulary>
+    <j.0:vocabulary>http://reference.data.gov.uk/def/</j.0:vocabulary>
+    <j.0:uriSpace>mailto:https://email.number10.gov.uk/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.transparency.culture.gov.uk/wp-content/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.education.gov.uk/contactforms/contactus/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/net/opmv/types/gridworks#</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/net/opmv/ns#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/ns/org#</j.0:vocabulary>
+    <j.0:uriSpace>http://media.education.gov.uk/assets/files/xls/d/</j.0:uriSpace>
+    <j.0:uriSpace>http://reference.data.gov.uk/id/</j.0:uriSpace>
+    <j.0:vocabulary>http://reference.data.gov.uk/def/reference/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.defra.gov.uk/ops/defra/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/net/opmv/types/common#</j.0:vocabulary>
+    <j.0:vocabulary>http://reference.data.gov.uk/def/parliament/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/net/opmv/types/xslt#</j.0:vocabulary>
+    <j.0:uriSpace>http://reference.data.gov.uk/def/</j.0:uriSpace>
+    <j.0:uriSpace>http://api.talis.com/stores/govuk-reference/items/#</j.0:uriSpace>
+    <j.0:vocabulary>http://reference.data.gov.uk/def/organogram/</j.0:vocabulary>
+    <j.0:vocabulary>http://rdfs.org/ns/void#</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/net/opmv/types/google-refine#</j.0:vocabulary>
+    <j.0:triples>45809</j.0:triples>
+    <j.0:uriSpace>http://www.bis.gov.uk/assets/biscore/data/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://services.data.gov.uk/reference/sparql</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.nationalgallery.org.uk/upload/csv/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.hmrc.gov.uk/transparency/</j.0:uriSpace>
+    <j.0:uriSpace>http://source.data.gov.uk/data/</j.0:uriSpace>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/linked-data/cube#</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://openelectiondata.org/id/parties/</j.0:uriSpace>
+    <j.0:uriSpace>http://download.cabinetoffice.gov.uk/structure/</j.0:uriSpace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/37">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

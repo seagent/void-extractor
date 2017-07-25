@@ -1,0 +1,39 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/43#indv_0.5190221420831072">
+    <j.0:uriSpace>http://research.data.gov.uk/education/grant-schemes/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/id/project/mrc/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:triples>43334</j.0:triples>
+    <j.0:uriSpace>http://research.data.gov.uk/doc/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/regions/rda/</j.0:uriSpace>
+    <j.0:vocabulary>http://reference.data.gov.uk/def/reference/</j.0:vocabulary>
+    <j.0:vocabulary>http://research.data.gov.uk/def/project/</j.0:vocabulary>
+    <j.0:uriSpace>http://research.data.gov.uk/def/project/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/id/project/epsrc/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://research.data.gov.uk/doc/project/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/people/</j.0:uriSpace>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://research.data.gov.uk/education/funding-mechanisms/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/id/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/name/project/epsrc/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/stuff/project/</j.0:vocabulary>
+    <j.0:uriSpace>http://research.data.gov.uk/id/project/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/concepts/bis-innovation/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/education/mode-description/</j.0:uriSpace>
+    <j.0:uriSpace>http://research.data.gov.uk/id/institution/</j.0:uriSpace>
+    <j.0:vocabulary>http://rdfs.org/ns/void#</j.0:vocabulary>
+    <j.0:uriSpace>http://research.data.gov.uk/id/project/tsb/</j.0:uriSpace>
+  </rdf:Description>
+</rdf:RDF>

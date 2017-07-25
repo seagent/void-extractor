@@ -1,0 +1,1944 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/0#indv_0.28517647045288064">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xHGNC"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.29961889144266773">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xSymbol"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5847352968684558">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8315245786597734">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:subType"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.0059497973927149506">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:synonym"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.46313140705523137">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7208168519038886">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#loadAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7994960283155084"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.28597190509681114">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.039373193705004916">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:symbol"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.08943401772148463">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:chromosomePosition"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.23548659592491605">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/45#indv_0.5204283665969307"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.4236466536264998">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.3128788258359664">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGeneID"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9238887263651806">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGO"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7572113945666655">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xENSEMBL"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.4337254672669245">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xInterPro"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.716483999073542">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.47008330732838854">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xUniProt"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.726408684503169">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:genomeStrand"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8515708071367133">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#loadAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/15#indv_0.38581879750566495"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.32767112677249655">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xSymbol"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8490830720840082">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGeneID"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.11162732997911629">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#loadAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.00420166959681767"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.25480892209488804">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:symbol"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.045177479740277526">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/13#indv_0.17417062149736517"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.23154156488372113">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:genomeStart"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8033173163705325">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9524004594434238">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGene"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.4719001381774861">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/22#indv_0.8301085388428726"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6020075347583669">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:synonym"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.618754793599418">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.5966600923294868"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6347623695637638">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGene"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6000630272854115">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:image"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.843936086177974">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://purl.org/dc/elements/1.1/title"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7373332766108134">
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-Ccnd1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-cop4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SFTPC-EML4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hla-b/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cdh5-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(h/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(h2-ea-cd74/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mt1-ova)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-kras*g12v,-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tcra/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tgtn(sb-t2/gt3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-NRAS*G12V,-CD2*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Esr1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT5-SMO*W535L)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD4-HIV)#</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/DAV#</j.0:vocabulary>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pnkd*a7v*a9v)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(itgax-dtr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-RPS19*R62W)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Trpv5-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mt1a-dyrk1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sv2a-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-sh2d1b2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-sart3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Jam2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fos/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Apoe-Pcsk9*H229A)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pcp2-Gap43)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mc4r-mapt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pdgfb-hyou1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GFAP-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-Il5)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp2-KRAS*Val12)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Csnk1d)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(bglap2-fhl2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CA2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tal1-ETV6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Acta2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-Esr1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fos/egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ar*100q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc6a4-cre/</j.0:uriSpace>
+    <j.0:vocabulary>http://bio2rdf.org/</j.0:vocabulary>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-MYC/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tlx2-lacz)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-sh2d1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SFTPC-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(alb1-gp33/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mbp-MAPT/lacZ)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Itga2b-cre)NE1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Scgb1a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fev-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(AMH-Fshr*D580Y)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(UBB-EmGFP/RNAi:Sarm1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd19-tnfsf7)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ctsg-pml/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pdx1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(s100b)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck-Tnfsf15,-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vav1-npm1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-6-Ctla4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-klrd1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(camk2a-esr1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-LPAR3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(neurog3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ggt1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(csf1r-egfp-ngfr/fkbp1a/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-Lama5/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gzmb-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Sftpb)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sp7-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(itgam-dtr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dbh-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-il5)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-inpp5f)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(APOE-SGMS2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-lpar1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Alb-TAg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:et(cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp-APP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tal1-cre/ERT)#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/virtrdf-data-formats#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gata1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rho-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Emu-Zfp521)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tagln-ager)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-pik3r1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins2-Sec61a1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc1a3-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ela1-bhlhb8)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh7-BVp35-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp4-LMNA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh7-bvp35-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(wnt7a-egfp/cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pitx3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(BCR/ABL1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-v12ch27/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mar-trpv5-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd4-hiv)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-sod2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nr5a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfp/kras2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Rho-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dach1-pax6)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-bgeo,-hras1,-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-Shh)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vil1-ppargc1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Krt1-5-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Flt3-cre/ERT2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GFAP-rtTA/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dvl2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Shh)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Plp1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(drb1*1502)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Zfp521)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hla-a/h2-d/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc1a3-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pnkd*A7V*A9V)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(bcr/abl1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc32a1-cop4*h134r/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Catsper1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(kap-cre)29066/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(acta2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tyr-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-bgeo,-aml1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col2a1-fgfr3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Phox2b-HIST2H2BE/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ITGAM-DTR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mapt-mapt*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tbx1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pcp2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-TRAV24-TRAJ18/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-map2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp-APP695*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ela1-TVA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ascl1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fev-cre/ERT2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ela1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-GAL4/PGR*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-Cox8a/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Et(icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-tTA2,-MAPT/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cnp1-cd44)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gfap-rtTA,tetO-MAOB,-lacZ)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vav1-tTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-mir208a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Flt3-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tph2-COP4*H134R/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col2a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fzd10-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hist1h2bj/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-xbp1*/venus)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(chat-cop4*h134r/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:TgTn(sb-T2/GT3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mov1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(amhr2-pik3ca*,-gfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col2a1-Mir140)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SERPINA1-IGHG1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Adipoq-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pdpn,-GFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HLA-B/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CRYD/Gli-luc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(upk3a-gfp/cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sv2a-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-2-12Vh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(acta2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-ENPP2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cited1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sftpc-nmyc1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(alb-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vil1-myc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(I12b-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(foxp3-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sftpc-eml4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MT1A-Dyrk1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hoxc13/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-bmpr2*r899x)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GFAP-tTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-hspb1*p182l)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(NPHS2-cre/ERT2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mov1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TCF3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(scgb1a1-plunc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Foxj1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Bgeo/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(amh-fshr*d580h)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ela1-tva)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gnrh1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp-App/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-neu/ot-i/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-ECFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-Sh2d1b1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(IVL-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gzmb-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tek-GFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-PKD2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-Eif4e)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GFAP-APOE_i4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-mKO2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Wfs1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(LRRK2*Y1699C)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-SOD2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Emu-ETV6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:TgTn(sb-T/MPT/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nr2e1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ALB-cre,CMV-rtTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fev-cre/ert2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(smn2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mnx1-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp-atxn3*79q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tagln-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vil-kras*v12g)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(il2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-BSCL2*N88S)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt5-ctnnb1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(UBC-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tlx2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-stat3c)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp-GFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pmch-MAPT/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(aspm-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto/cd200r1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-cyp2j2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(H2-K-MC159/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nfh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-tnnt2*r92q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-BDNF)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tet-hoxa10)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ttr-insr)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hoxb7-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HBB)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gata1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fadd/EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(serpina1-ighg1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vps54)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Acta2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp-app695*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-MAP2K1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Apoe-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Alb1-GP33/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prdm1-venus)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-bmp4)#</j.0:uriSpace>
+    <j.0:vocabulary>http://bio2rdf.org/ns/bio2rdf#</j.0:vocabulary>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cga-lhb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp4-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Bgeo,-Hras1,-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(aqp2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(serpina1e-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cdh16-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD4-CIITA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cyp1a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Aqp2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-stat5a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:TgTn(sb-T2/GT2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-rtTA/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gata1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fgf15/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-COP4*H134R/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sftpc-Nmyc1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc32a1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vil-Myd88)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prrx1-hand2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-nfatc4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cd4-Il17rb)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nfh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp4-lmna)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nfkb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Camk2a-Tardbp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins-MYC/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(foxj1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-lama5*g3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HLA-DRA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hbb-tnf)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-nog)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh11-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col2a1-Fgfr3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-egfp,rnu6-siabca1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(upk2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(six2-gfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins2-Hnf1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-lpar2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ckm-Fstl1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pdx1-cre/Esr1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ha-t)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-TNNT2*R141W)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rnu6-egfp,-rnai:dpp7)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(chx10-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-myb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mt1-GH1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SBE/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SOD1*H46R)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ubb-emgfp/rnai:sarm1)#</j.0:uriSpace>
+    <j.0:triples>2172452</j.0:triples>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/conductor/toolkit/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc6a3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ttr-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mt1-CETP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-s100a7a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Piwil2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins2-luc/EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt1-5-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-DTX1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TetOp-Polb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gfap-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(camk2a-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-myc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sox9-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins2-sec61a1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(P0-Cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-PRKAG2*R302Q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp1-nr1i2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(alb1-myc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp1-Nr1h3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-GFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(upk2-tag)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dppa3-ecfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col1a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vav1-NUP98/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Krt1-15-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(RBP3-TAg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-AIP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-EYFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-VR16.7/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dct-lacZ)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins1-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-Mef2c/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc2a2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pdgfra-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cga-LHB/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-Ica1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hsd17b1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hoxc11/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Actb-GFP,-luc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-oxr1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SERPINA1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-notch1*1758-2556)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(S100B)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tek-gfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Acta2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nodal*-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pomc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(LPV-TAg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-NOTCH1*1758-2556)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MT2A-Myc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HIST1H2BB/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(PF4-tTA/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(eno2-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pdgfb-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-cdk5r1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(itgax-mcherry)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tek-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(RARE/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt5-smo*w535l)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-YFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cnp1-Cd44)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp4-foxo4*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tgtn(sb-t2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-egfp,-pax8/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck-Sox13)#</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/home/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Alb1-Myc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(trpv5-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-csnk1d)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-letmd1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sarm1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Krt14-Nog)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(AMH-Fshr*D580H)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(catsper1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(bcr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pdx1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(cona-T)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hoxb7-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sox10-HIST2H2BE/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(BCR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TNF)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Foxp3-DTR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-eif4e)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-dsred)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Runx1-GFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Igk-V12/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(p0-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(klkb1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-bdnf)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(uchl1-hist2h2be/mcherry/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dmp1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Itgax-mCherry)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-RARA/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KLKB1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-lmo2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nefl-eyfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(jam2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck-cre)#</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/virtrdf#</j.0:vocabulary>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sox2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Serpina1e-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-lacZ,-SV40)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Zp2*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-SMN,-luc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-YFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-sftpb)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dvl2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ly6a-set/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prrx1-Hand2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hrgp-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-alpp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sox10-hist2h2be/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hsd17b1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-grin1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ebf2-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tetop-polb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ebf2-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-PHEX)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gjc1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sp7-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(wfs1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(phox2b-hist2h2be/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-fpr2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Piwil4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp1-OLIG2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TcraDN32D3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(htt*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-OTC/CAT)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Defcr2-TAg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd74-rtta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pcdh21-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Apoe-Pcsk9)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-esr1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT5-SMO)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-bgeo,-tel/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(itgax-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD19-Tnfsf7)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igk-c/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp1-olig2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(s100b-egfp/cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(apoe-pcsk9)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(neurog2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-gal4/pgr*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-6h4vh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp4-FOXO4*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hoxd9/lacz/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dppa3-Venus)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tnnt2-tnnt2*r92q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Camk2a-Creb1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hoxb6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd19-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gzmb-tax)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tlx2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-CDK5R1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-INPP5F)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tcf3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(AR*100Q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cnp-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vps54)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Amelx-Dspp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prkcd-glc-1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rare/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tcrakb5.c20,tcrbkb5.c20)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(RARE-Hspa1b/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nfatc1-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Uchl1-HIST2H2BE/mCherry/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-ALPP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(bcl2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(amh-cre/ert)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp-app)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pax7-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-raf1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rp23-291p1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HLA-DRA,HLA-DRB1*0301)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-TPR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-sac/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Camk2a-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-Fpr2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(LPV-TAg121)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rbp3-tag)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Eno2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-cre/ERT2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ly6a-tk,-bcr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-map2k1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt18-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tph2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dmp1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT5-HRAS)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col1a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-LPAR1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-stx1a/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(BCL2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pitx3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins-myc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GZMB-Tax)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cd2-Tcra2E7,Cd4-Tcrb2E7)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Krt15-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-gfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sp7-tta,teto-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prrx1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Eno2-YFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT16/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-pyvt)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-mrfp,-cxcr1,-luc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tmem100-EGFP/cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(camk2a-creb1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-cerulean/tnnc*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(camk2a-tardbp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc6a4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vav1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(APOE-rtTA*M2;tetO-Rgs16)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-Sh2d1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pbsn-Fgfr2/Fkbp1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(En2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-MAPT*P301L)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Kap-cre)29066/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-Nfil3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gsg2-egfp,-dsred1)1-#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Csf1r-Tnfsf15,-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Neurog1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(H2-k-Polb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tek-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(alb-cre,cmv-rtta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Camk2a-ESR1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fzd10-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rp11-466i19/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tet-HOXA10)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(best1-htra1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cyp1a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-CYP2J2)#</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-AppDutch)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-QPCT)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-COP4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Bgeo,-TEL/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-tpr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col2a1-Glg1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gjc1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh7-RARA/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-mapt*p301l)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins2-Lta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tek-gfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-mRuby)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins2-TFRC/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(emu-zfp521)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hhex-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(foxa2*-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hoxb7-RET/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(syn1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pvalb-cop4*h134r/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vil1-PPARGC1A)#</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://mgi.bio2rdf.org/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(FOXJ1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CTSG-PML/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd4-il17rb)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-FLPe)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-mag/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Chx10-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins1-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-Syt1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nr4a1-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-Pik3r1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc32a1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pcp2-gap43)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(H/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tal1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pdgfb-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-PRKAG2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT18-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-bcr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-Ntrk2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp4-TLE3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nr2e1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ivl-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dmpk/teto-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pbsn-fgfr2/fkbp1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-trav24-traj18/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Epo-DTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ARR2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(BCL2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tcra/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Et(cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(apoe-rtta*m2;teto-rgs16)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pbsn-Fgfr1/Fkbp1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pmch-mapt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ttr-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tyr-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ddx4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prph1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sftpc-chia)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(etv4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hhex-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-Lama5*G2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(drd1a-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Scgb1a1-PLUNC)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prrx1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-HSPB1*S135F)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lmx1a-egfp/cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh@yhg1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HLA-A24/H2-D/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dct-lacz)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-BACE1)54/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igk-Lta/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins2-luc/egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tal1-cre/ert)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Utg-TAg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-rtta/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Amhr2-Pik3ca*,-GFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ctsg-nup98/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp4-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-LETMD1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Stat5a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(foxd1-gfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Chat-COP4*H134R/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(abcg5/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Otx2,-GFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/sparql/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck-Notch3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ABCG5/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tert-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Neurog3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col1a2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(i12b-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(h*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-Myb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(PGK2-Pacrg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col2a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lrrk2*y1699c)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Bmpr2*R899X)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-mAG/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-sh2d1b1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://xmlns.com/foaf/0.1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-Stx1a/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp1-nr1h3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(NEFL*E397K)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc6a3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-COP3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-Map2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col9a1-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-KRAS*G12V,-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dvl2*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-rtta3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Klf4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col2a1-Mef2c/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dvl2*K446M/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hoxd9/lacZ/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(flt3-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hist1h2bb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Eno2-Lepr)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tnf)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/conductor/help/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-mko2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sp7-tTA,tetO-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Camk2a-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dppa3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Itgax-DTR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(RP11-466I19/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ckm-mir499)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cryd/gli-luc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nes-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mbp-mapt/lacz)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tgtn(sb-t/mpt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp-itm2b/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hoxb6-Sall1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-gag/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ar*20q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Amh-cre/ERT)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Del(Y)B10.BR-Y&amp;lt;del&amp;gt;/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Emu-ETV6/JAK2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fadd/egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CTSG-NUP98/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pvalb-COP4*H134R/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hoxb6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col1a2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HA-T)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp2-kras*val12)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Krt5-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fos/EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col2a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tek-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tek-GFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hoxb7-ret/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-cat,-Dcn*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-Ptch1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nphs2-cre/ert2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Rr5-GFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nfatc1-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-mef2c/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-zfp521)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hf/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pomc-mapt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-lacz,-sv40)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD4-Tcra/EGFP,Tcrb)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-XBP1*/venus)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Defcr2-Dta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-dtx1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pomc-MAPT/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Alb-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-b2m)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tph2-cop4*h134r/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-gfp,-luc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ascl1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-cfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-apoe_i4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nr5a1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-cat,-dcn*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SYN1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-rtTA3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fgfr3-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-bace1)54/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(PDGFB-Hyou1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cyp1a1-ppard)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TTR-INSR)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(H2-K1-tsA58)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col1a1-runx2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prkcd-glc-1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-vb1-8/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(adipoq-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ela1-Bhlhb8)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(S100b-EGFP/cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Oxr1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(scgb1a1-idab#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt5-hras)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(H2-Ea-Cd74/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt16/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-6H4Vh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-lpar3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tspy1-figla)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pcp2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cela1-spink3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-ptgs2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck/Emu-Eif4e)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lhb-tag)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(utg-tag)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Eno2-Prnp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-flpe)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CTSG-RARA/PML)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(neurog1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-mir29a,-mir29b-1,-hrgfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tert-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-otc/cat)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-tdTomato,-Syp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-Foxj1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-hist1h2bj/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mt1-OVA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cdh16-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gata1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cnp-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-tcra2e7,cd4-tcrb2e7)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-V12CH27/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-shh)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-tta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cspg4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt15-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dvl2*k446m/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-TPR/MET,-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(wnt1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(eno2tta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hoxc13/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rare-hspa1b/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Etv4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-SAC/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fev-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pax7-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck-notch3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(plp1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igham14)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tnni3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(serpina1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(emu-etv6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mscv-bcr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Eno2-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(penk-glc-2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/conductor/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-rtta,teto-maob,-lacz)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-HSPB1*P182L)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nppa-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-otc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(INS-Il10)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mef2c-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-smn,-luc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Csf1r-EGFP-NGFR/FKBP1A/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-qpct)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rxfp2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lpv-tag)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-Mir29a,-Mir29b-1,-hrGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mt1-cetp)#</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Msi1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-ub*g76v/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd8a*-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vil-myd88)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tnnt2-TNNT2*R92Q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pcp2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd68-retn)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-Myc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-cox8a/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc2a2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Six2-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mpz-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(AR*20Q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh7-rara/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-ecfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-esr1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col9a1-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Six2-GFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HRGP-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pf4-tta/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ckm-fstl1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(bcl2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-lama5*g2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pcp2-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tcf/lef1-hist1h2bb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vav1-NPM1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ivl-myc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp-app/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-bgeo/lhx2,-gfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(piwil2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-foxj1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-VB1-8/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gcg-gh1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-nfil3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pdgfrb-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vil-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh11-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:del(y)b10.br-y&amp;lt;del&amp;gt;/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-Sh2d1b2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(shh)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-yfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tph2-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-egfp,rnu6-rnai:rgs16)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Arr2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col1a1-Runx2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:et(egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-GP33/NP396/bGal497/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prph1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-dsRed)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc32a1-COP4*H134R/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(itga2b-cre)ne1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD2-Lmo2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins-il10)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igk-lta/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck-tnfsf15,-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prdm1-Venus)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rho-dta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ubc-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cela1-Spink3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-mRFP,-CXCR1,-luc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Camk2a-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Aire-G6pc2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sox2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gh-gal)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gata1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GFAP-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(h2-k1-tsa58)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gjb6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(h2-k-polb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(IGH@yHG1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hnf1b-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cela1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hmgcr-psen1*m146l)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(RHO-DTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-lama5/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tcradn32d3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD19-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HLA-A/H2-D/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mt1-pml/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Et(EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd4-il17re)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(npy-mapt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-cop4*h134r/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fstl4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(eno2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Ub*G76V/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sftpc-Chia)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Stat3c)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck-sox13)#</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Aspm-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ctsg-rara/pml)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-hspb1*s135f)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-eyfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-EGFP,RNU6-RNAi:Rgs16)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tal1-etv6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-6-ctla4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col1a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nanos2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pbsn-fgfr1/fkbp1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prm-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-ntrk2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-v-cd40lg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nr2e1-cre/ERT2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-Klrd1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-pkd2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Foxp3-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-hop/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CYP1A1-PPARD)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Cd74/MCC)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tcf/lef1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-tdtomato,-syp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tmem100-egfp/cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-HIST1H2BJ/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/conductor/images/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TCF/Lef1-HIST1H2BB/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-15B3Vh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(NPHS2-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nr5a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(flt3-cre/ert2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nes-cre/ERT2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CTSG-RARA/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Npy-MAPT/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(adipoq-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck-Tal1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prm-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(eno2-yfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Wnt7a-EGFP/cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hoxc11/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(H*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-NFATC4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-S100a7a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HIST1H2BJ/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tgtn(sb-t2/onc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Rxfp2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sp7-cre/ERT2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(rr5-gfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(IghAM14)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TRE/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pdpn,-gfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Bglap2-Fhl2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:TgTn(sb-T2/Onc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(apoe-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(piwil4/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-bscl2*n88s)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins2-lta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vav1-tta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-aurka)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-Cerulean/TNNC*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-yfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mt1-PML/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mnx1-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hla-a/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TSPY1-Figla)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tagln-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nphs2-rnai:gpc5)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gnrh1-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:TgTn(pb-sb-GrOnc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lpv-tag121)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igk-C/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HBB-TNF)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-ica1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-bgeo/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SV40/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TCF/Lef1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col2a1-mir140)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(prnp-gfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Krt14-Bmp4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pcdh21-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mt2a-myc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(h2-k-mc159/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd4-ciita)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck-tal1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Drd1a-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dppa3-venus)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dppa3-ECFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pomc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(emu-etv6/jak2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Upk2-TAg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ggt1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-2-12vh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-PyVT)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(BEST1-HTRA1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hes7-lfnf,-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dach1-Pax6)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nphs2-RNAi:Gpc5)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(acta2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt5-rtta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(acta1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fos/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(oxt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-LPAR2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(en2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tgtn(pb-sb-gronc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(azip/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/virtrdf#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sbe/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-prkag2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-TNNT2*R92Q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-klf4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-htr4*d100a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cd8a*-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-PTGS2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ca2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hf/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(epo-dta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vil-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mc4r-MAPT/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gjb6-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-map2k1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Bgeo,-AML1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(arr2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fgf15/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Aqp4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-tdtomato-2a-h2b/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nppa-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dbh-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Mir208a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lmx1a-EGFP/cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Acp5-Adam8)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(zp2*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-syt1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hes7-Lfnf,-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lck-ERT2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gcg-GH1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Itgax-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(bmi1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(aqp4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-V-CD40lg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(defcr2-tag)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp-ATXN3*79Q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck/emu-eif4e)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(csf1r-tnfsf15,-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc1a3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HLA-A2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc16a8-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Wnt1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(camk2a-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col2a1*r789c)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ly6a-bcr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Lhb-TAg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Sox9-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp-ITM2B/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-Bgeo/Lhx2,-GFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(emx1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(eno2-prnp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tlx2-lacZ)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-rara/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ly6a-TK,-BCR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-mruby)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vil1-MYC/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-myc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cela1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(six2-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tph2-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-phex)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(DRB1*1502)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nodal*-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dcx-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(apoe-pcsk9*h229a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cited1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MAR-Trpv5-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hbb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-MAP2K1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lpv-tag121*e107k)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fgfr3-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins2-tfrc/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(vav1-nup98/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Acp5-Fhl2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nphs2-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cona-t)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc16a8-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Penk-glc-2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(defcr2-dta)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nes-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt1-15-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Eno2tTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MSCV-BCR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(NFkB/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT5-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col2a1*R789C)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-nras*g12v,-cd2*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ckm-sox6)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tal1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Neurog2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Bmi1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt14-ptch1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ins2-hnf1a)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(msi1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-vr16.7/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Emx1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ctsg-rara/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/07/owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ckm-Mir499)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(ddx4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pdx1-cre/esr1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-SART3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col2a1-mef2c/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(igh-15b3vh/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tagln-Ager)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gfap-gp120)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pklr-BCL2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tcrlcmv)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HLA-A/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(PF4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(alb-tag)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-prkag2*r302q)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-tnnt2*r141w)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GFP/KRAS2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(grin2c-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(amh-fshr*d580y)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Atoh1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Grin2c-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD4-Il17re)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gh-Gal)#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/07/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ly6a-BCR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Il2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(HTT*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nr2e1-cre/ert2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cdh5-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hla-a24/h2-d/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Myh6-Nox4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pdgfrb-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vav1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sarm1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Krt5-Ctnnb1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hoxb6-sall1*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-rps19*r62w)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fstl4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt5-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cspg4-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp4-tle3)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pcp2-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Prnp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mmtv-enpp2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-gag/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sod1*h46r)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(aire-g6pc2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Foxd1-GFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ly6a-SET/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GFAP-B2m)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ela1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTA1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(col2a1-glg1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(GATA6-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hbb/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tnni3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc1a3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(RNU6-EGFP,-RNAi:Dpp7)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-neu/OT-I/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Cd74-rtTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Gsg2-EGFP,-DsRed1)1-#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gata1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-nox4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/conductor/images/dav_browser/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(ACTB-Lama5*G3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(acp5-adam8)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Scgb1a1-iDab#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Igh-6/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tek-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Upk2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(camk2a-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp4-Il22)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cmv-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ins2-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-HTR4*D100A)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-tdTomato-2A-H2B/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(fabp4-il22)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-otx2,-gfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sp7-cre/ert2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Foxa2*-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-BCR/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mef2c-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hnf1b-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hbb)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-tpr/met,-egfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Upk3a-GFP/cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(RP23-291P1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(amelx-dspp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pklr-bcl2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(tbx1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/conductor/syntax/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(dppa3-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cag-gfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-EGFP)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TcraKB5.C20,TcrbKB5.C20)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-CFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-ccnd1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CMV-EGFP,Rnu6-siAbca1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-gp33/np396/bgal497/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Thy1-HOP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(NEFL-EYFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:igk-v12/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pf4)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO/Cd200r1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(apoe-sgms2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT14-RAF1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(krt5-smo)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(actb-tta2,-mapt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sv40/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pdgfra-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hla-dra,hla-drb1*0301)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(scgb1a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8890/DAV/VAD/conductor/images/icons/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Vil-KRAS*V12G)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(TcrLCMV)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Mapt-MAPT*)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(msx2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nefl*e397k)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hla-dra)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gata6-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Nr5a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CD68-RETN)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(MMTV-AURKA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Hmgcr-PSEN1*M146L)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(atoh1-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mpz-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nes-cre/ert2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Ckm-Sox6)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-cop3/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-COX8A/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(IVL-MYC/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(LPV-TAg121*E107K)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Fabp1-NR1I2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tgtn(sb-t2/gt2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(SMN2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(runx1-gfp)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(hla-a2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(DMPK/tetO-EGFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col1a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-OTC/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(mt1-gh1)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(foxp3-dtr/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(pgk2-pacrg)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Col2a1-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(cd4-tcra/egfp,tcrb)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-gp120)#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/xbrl/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-cre/ert2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Dvl2*/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(acp5-fhl2)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(gfap-rtta/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(myh6-aip/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(AZIP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Tph2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Adipoq-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Msx2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(KRT5-rtTA)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nanos2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Oxt/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Slc6a3-icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-GFP/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-cox8a/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(tetO-Grin1/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(thy1-appdutch)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-EGFP,-PAX8/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(lck-ert2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:et(icre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(DCX-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(Pcp2-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(sftpc-cre)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:TgTn(sb-T2/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:Tg(CAG-cre/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(nr4a1-egfp/</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(eno2-lepr)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(teto-cd74/mcc)#</j.0:uriSpace>
+    <j.0:uriSpace>http://bio2rdf.org/symbol:tg(slc6a3-icre/</j.0:uriSpace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.0638653073039126">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGO"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.49828542139939136">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:subType"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.4857236275911997">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.47065109650860326">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.5749933887947021"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.09800616532970596">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.42727166497399627">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xSymbol"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.134012785235739">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xHGNC"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8265186697401264">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGene"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.1833612284872842">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGeneID"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.24227090442018995">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xLocus"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.04104237486157647">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xInterPro"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.08579286832778654">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xUniProt"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7472755562414775">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xChromosome"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.4999521076159057">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/24#indv_0.12035702880333687"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.703746374538669">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xHGNC"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.2803259533082789">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:genomeEnd"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7520700188449972">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:genomeStart"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.36074752540113764">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xENSEMBL"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6407338411994735">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xUniProt"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8929740422613683">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:url"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.645238716864205">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xChromosome"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.587195273065104">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4246927590455861"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9572254089369194">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6019946293899221">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://purl.org/dc/elements/1.1/title"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.38664525906404923">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:url"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7797780208691257">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xUniProt"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9075293023728439">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:genomeEnd"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9037933596122106">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xChromosome"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8272886515630989">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xInterPro"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.224643300788815">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.3515464876650135"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.09216834910838245">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGeneID"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.941416873854873">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGene"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.018166048050467953">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xENSEMBL"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.22855239300541552">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.925227985707652"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.3990391288807733">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGO"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6668413943059707">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xLocus"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.21066622415764158">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.0059958492246656725">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.38961119630927754">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xInterPro"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.44730196247518406">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xGO"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7541728362185939">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#loadAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.24370261953920358"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9663332483447165">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:chromosomePosition"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6598682755127825">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:genomeStrand"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.024893180872389564">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xLocus"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.11321326904880313">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7241347777682786">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xHGNC"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8041640936151574">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:image"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9017251002166603">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xSymbol"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.007932576619106513">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xENSEMBL"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.652059154616477">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.4323247677479347"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.2785618448456839">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/1#indv_0.8910682075765738"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.46435543615803376">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xSymbol"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.22336681850971463">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xLocus"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.07592891520997869">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9954737050710458"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:linkPredicate rdf:resource="http://bio2rdf.org/mgi_vocabulary:xChromosome"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5988752543375946">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.007632503946096825"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+  </rdf:Description>
+</rdf:RDF>

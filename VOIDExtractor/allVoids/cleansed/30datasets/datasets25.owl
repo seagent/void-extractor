@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/25#indv_0.8383653497215104">
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://open.vocab.org/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/eumida/region/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/eumida/dataset/</j.0:uriSpace>
+    <j.0:vocabulary>http://geovocab.org/spatial#</j.0:vocabulary>
+    <j.0:vocabulary>http://data.kasabi.com/dataset/eumida/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/eumida/country/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/linked-data/sdmx/2009/dimension#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/eumida/degree/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/eumida/terms/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://purl.org/linked-data/cube#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/eumida/institution/</j.0:uriSpace>
+    <j.0:triples>162279</j.0:triples>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/eumida/legal-status/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/25">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

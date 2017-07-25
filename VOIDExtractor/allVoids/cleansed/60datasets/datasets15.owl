@@ -1,0 +1,139 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/15#indv_0.4197100365677935">
+    <j.0:subset rdf:resource="http://datasets/15#indv_0.38581879750566495"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/15#indv_0.38581879750566495"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/geonames#indv_0.32581606535856833"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/15#indv_0.7283592051903551">
+    <j.0:subset rdf:resource="http://datasets/15#indv_0.38581879750566495"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/15#indv_0.38581879750566495"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/geonames#indv_0.32581606535856833"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/15#indv_0.38581879750566495">
+    <j.0:uriSpace>http://www.iana.org/assignments/relation/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/DAV#</j.0:vocabulary>
+    <j.0:uriSpace>http://aims.fao.org/aos/geopolitical.owl#</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2006/vcard/ns#</j.0:vocabulary>
+    <j.0:uriSpace>http://dbpedia.org/ontology/</j.0:uriSpace>
+    <j.0:uriSpace>http://s.opencalais.com/1/pred/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/Image#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.fundacionctic.org/vocab/cultura-turismo/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/virtdav#</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/vocab/vann/</j.0:uriSpace>
+    <j.0:vocabulary>http://opengraphprotocol.org/schema/</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/goodrelations/v1#</j.0:uriSpace>
+    <j.0:uriSpace>http://data.fundacionctic.org/cultura-turismo/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/ebay#</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/ontology/mo/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/xbrl/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2004/02/skos/</j.0:uriSpace>
+    <j.0:uriSpace>http://usefulinc.com/ns/doap#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/virtrdf-data-formats#</j.0:uriSpace>
+    <j.0:vocabulary>http://data.fundacionctic.org/vocab/cultura-turismo/turismo#</j.0:vocabulary>
+    <j.0:uriSpace>http://192.168.4.233:2880/DAV/vocab/</j.0:uriSpace>
+    <j.0:vocabulary>http://192.168.4.233:2880/vocab/catalog/datasets#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/virtrdf#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/1999/xhtml/vocab#</j.0:vocabulary>
+    <j.0:uriSpace>http://rdf.freebase.com/ns/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</j.0:uriSpace>
+    <j.0:vocabulary>http://eulersharp.sourceforge.net/2004/04test/rogier#</j.0:vocabulary>
+    <j.0:uriSpace>http://dbpedia.org/resource/</j.0:uriSpace>
+    <j.0:uriSpace>http://192.168.4.233:2880/about/id/http/dbpedia.org/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://192.168.4.233:2880/DAV/VAD/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schema/attribution#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.fundacionctic.org/comun/localizacion/Localidad/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/sparql/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/vocab/vann/</j.0:vocabulary>
+    <j.0:uriSpace>http://192.168.4.233:2880/DAV/home/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/ontology/bibo/status/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2008/05/skos#</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/property/</j.0:uriSpace>
+    <j.0:vocabulary>http://data.fundacionctic.org/vocab/comun/organizacion#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/bestbuy#</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/net/vocab/2004/03/label#</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/ontology/bibo/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/RDF#</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/dc/terms/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/07/owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://rdfs.org/sioc/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://s.opencalais.com/1/type/er/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/12/cal/ical#</j.0:uriSpace>
+    <j.0:uriSpace>http://xmlns.com/foaf/0.1/</j.0:uriSpace>
+    <j.0:uriSpace>{pubby.webBase}vocab/comun/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/amazon#</j.0:uriSpace>
+    <j.0:uriSpace>http://uberblic.org/ontology/</j.0:uriSpace>
+    <j.0:uriSpace>http://open.vocab.org/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/cnet#</j.0:uriSpace>
+    <j.0:uriSpace>http://open.vocab.org/terms/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/zillow#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.geonames.org/ontology#</j.0:uriSpace>
+    <j.0:uriSpace>http://data.fundacionctic.org/dataset-catalog/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.w3.org/2002/07/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2003/06/sw-vocab-status/ns#</j.0:uriSpace>
+    <j.0:vocabulary>http://data.fundacionctic.org/vocab/comun/localizacion#</j.0:vocabulary>
+    <j.0:vocabulary>http://bblfish.net/work/atom-owl/2006-06-06/#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2002/12/cal/ical#</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/goodrelations/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/NET/c4dm/event.owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://192.168.4.233:2880/dataset-catalog/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2004/02/skos/core#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/virtrdf#</j.0:uriSpace>
+    <j.0:uriSpace>http://schemas.talis.com/2005/address/schema#</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://xmlns.com/wot/0.1/</j.0:uriSpace>
+    <j.0:uriSpace>http://192.168.4.233:2880/about/id/entity/</j.0:uriSpace>
+    <j.0:vocabulary>http://data.fundacionctic.org/vocab/catalog/datasets#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2008/05/skos#</j.0:vocabulary>
+    <j.0:vocabulary>http://creativecommons.org/ns#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2006/12/owl2-xml#</j.0:vocabulary>
+    <j.0:uriSpace>{pubby.webBase}vocab/comun/{pubby.webBase}vocab/cultura-turismo/</j.0:uriSpace>
+    <j.0:uriSpace>http://bblfish.net/work/atom-owl/2006-06-06/#</j.0:uriSpace>
+    <j.0:vocabulary>http://sws.geonames.org/ontology#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.w3.org/2000/10/swap/pim/contact#</j.0:uriSpace>
+    <j.0:uriSpace>http://rdfs.org/ns/void#</j.0:uriSpace>
+    <j.0:uriSpace>http://192.168.4.233:2880/recurso/id/turismo/alojamiento/Hotel/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2003/06/sw-vocab-status/ns#</j.0:vocabulary>
+    <j.0:vocabulary>http://open.vocab.org/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.fundacionctic.org/asturias/empleo/</j.0:uriSpace>
+    <j.0:triples>535230</j.0:triples>
+    <j.0:uriSpace>http://www.w3.org/2006/12/owl2-xml#</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/dc/elements/1.1/</j.0:uriSpace>
+    <j.0:vocabulary>http://schemas.talis.com/2005/dir/schema#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/XHTML#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.crunchbase.com/</j.0:uriSpace>
+    <j.0:uriSpace>http://bblfish.net/work/atom-owl/2006-06-06/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/xbrl/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.w3.org/2000/01/rdf-schema#</j.0:uriSpace>
+    <j.0:uriSpace>http://scot-project.org/scot/</j.0:uriSpace>
+    <j.0:uriSpace>http://rdfs.org/sioc/ns#</j.0:uriSpace>
+    <j.0:vocabulary>http://rdfs.org/sioc/ns#</j.0:vocabulary>
+    <j.0:uriSpace>http://dbpedia.org/class/yago/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/google-base#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://data.fundacionctic.org/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://opengraphprotocol.org/schema/</j.0:uriSpace>
+    <j.0:vocabulary>http://data.fundacionctic.org/vocab/asturias/empleo/oferta-formativa#</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/ontology/bibo/degrees/</j.0:uriSpace>
+    <j.0:uriSpace>{pubby.webBase}vocab/comun/{pubby.webBase}vocab/cultura-turismo/turismo#</j.0:uriSpace>
+    <j.0:uriSpace>http://scot-project.org/scot/ns#</j.0:uriSpace>
+  </rdf:Description>
+</rdf:RDF>

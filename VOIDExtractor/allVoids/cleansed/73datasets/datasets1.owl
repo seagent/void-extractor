@@ -1,0 +1,37 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/1#indv_0.8910682075765738">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://purl.org/dc/terms/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/licenses/</j.0:uriSpace>
+    <j.0:uriSpace>http://rdf.myexperiment.org/ontologies/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/users/</j.0:uriSpace>
+    <j.0:uriSpace>http://rdfs.org/sioc/ns#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/packs/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/dc/elements/1.1/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openarchives.org/ore/terms/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.myexperiment.org/announcements/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/content_types/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/workflows/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2004/02/skos/core#</j.0:uriSpace>
+    <j.0:uriSpace>http://xmlns.com/foaf/0.1/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/groups/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</j.0:uriSpace>
+    <j.0:triples>660342</j.0:triples>
+    <j.0:uriSpace>http://www.myexperiment.org/files/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/2010/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.myexperiment.org/tags/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://rdf.myexperiment.org/sparql/</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://www.myexperiment.org/2010/pack/</j.0:uriSpace>
+    <j.0:uriSpace>http://web.resource.org/cc/</j.0:uriSpace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/1">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

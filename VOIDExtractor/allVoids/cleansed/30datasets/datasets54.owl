@@ -1,0 +1,237 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6138227899838491">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/4#indv_0.6095196231737889"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.2576314746778048">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#loadAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7994960283155084"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.24759773494494497">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/dbpedia#indv_0.9145900649750467"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.3581270776792129">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://en.openei.org/lod/resource/ontology/nav/hasParent"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.3085386489701937">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/34#indv_0.5935313017764311"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.2167523110269025">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.4246927590455861"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6635573893905267">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/15#indv_0.38581879750566495"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.8808591513963655">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.3515464876650135"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5634700605761872">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/18#indv_0.6146661816766646"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.533951846900993">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://en.openei.org/lod/resource/wiki/Property-3AGeoNames_URL"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/geonames#indv_0.32581606535856833"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.4196627091932811">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/22#indv_0.8301085388428726"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6738741861845404">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://openei.org/resources/Property-3AGeoNames_URL"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/geonames#indv_0.32581606535856833"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.31080992224254667">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.007632503946096825"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.886173493598105">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.7373332766108134"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.3515555281973294">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://openei.org/resources/Property-3AIncentive-2FCont3Website"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/35#indv_0.0945882344901553"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.992789130503645">
+    <j.0:vocabulary>http://semantic-mediawiki.org/swivt/1.0#</j.0:vocabulary>
+    <j.0:vocabulary>http://openei.org/resources/</j.0:vocabulary>
+    <j.0:uriSpace>http://s.opencalais.com/1/pred/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/virtrdf-data-formats#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2002/07/</j.0:uriSpace>
+    <j.0:uriSpace>http://en.openei.org/lod/resource/wiki/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/DAV#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:uriSpace>http://openei.org/resources/</j.0:uriSpace>
+    <j.0:uriSpace>http://rdf.freebase.com/ns/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.openei.org/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://www.w3.org/2002/07/owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8891/DAV/VAD/</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8891/DAV/home/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.openlinksw.com/sparql/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.w3.org/2000/01/rdf-schema#</j.0:uriSpace>
+    <j.0:vocabulary>http://en.openei.org/lod/resource/ontology/</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/dc/elements/1.1/</j.0:uriSpace>
+    <j.0:triples>16384698</j.0:triples>
+    <j.0:vocabulary>http://en.openei.org/lod/resource/datasets/</j.0:vocabulary>
+    <j.0:uriSpace>http://en.openei.org/lod/resource/datasets/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.openlinksw.com/schemas/virtrdf#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.openlinksw.com/schemas/virtrdf#</j.0:uriSpace>
+    <j.0:uriSpace>http://localhost:8891/DAV/home/demo/</j.0:uriSpace>
+    <j.0:uriSpace>http://en.openei.org/lod/resource/</j.0:uriSpace>
+    <j.0:vocabulary>http://en.openei.org/lod/resource/wiki/</j.0:vocabulary>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.39103248651079425">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.925227985707652"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.10008964119686992">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#loadAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.24370261953920358"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5283982518488453">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/6#indv_0.6539039339533074"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.3049266025233095">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.5966600923294868"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.20117674837402022">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#loadAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.00420166959681767"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6299295972899321">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/1#indv_0.8910682075765738"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5124657797508803">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://openei.org/resources/Property-3AIncentive-2FCont3Website"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/10#indv_0.7323682965001294"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.11300439141000629">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/24#indv_0.12035702880333687"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5383405199805906">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/13#indv_0.17417062149736517"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.04251789223510416">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#complementOf"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.5749933887947021"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5007484643816796">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/26#indv_0.9366561581979931"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7494579710946928">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.openlinksw.com/schemas/virtrdf#item"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/45#indv_0.5204283665969307"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6132261826661202">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/27#indv_0.5563687903363749"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.992789130503645"/>
+  </rdf:Description>
+</rdf:RDF>

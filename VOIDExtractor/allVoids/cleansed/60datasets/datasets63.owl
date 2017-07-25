@@ -1,0 +1,87 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.21134845070494523">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/35#indv_0.0945882344901553"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.5528500212359994">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/18#indv_0.6146661816766646"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.28674158745877554">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/15#indv_0.38581879750566495"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.7305858810863047">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/24#indv_0.12035702880333687"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.3372760557937883">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/4#indv_0.6095196231737889"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.4950269197915621">
+    <j.0:vocabulary>http://linkedgeodata.org/ontology/</j.0:vocabulary>
+    <j.0:vocabulary>http://linkedgeodata.org/property/</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://linkedgeodata.org/sparql</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://www.w3.org/2000/01/rdf-schema#</j.0:vocabulary>
+    <j.0:uriSpace>http://linkedgeodata.org/ontology/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.georss.org/georss/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:vocabulary>
+    <j.0:uriSpace>http://linkedgeodata.org/triplify/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:triples>222539712</j.0:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.7844572159533142">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/26#indv_0.9366561581979931"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.10093889784646592">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/27#indv_0.5563687903363749"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.4124787511674832">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/6#indv_0.6539039339533074"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/geodata#indv_0.959625067609794">
+    <j.0:subset rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/geodata#indv_0.4950269197915621"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/dbpedia#indv_0.9145900649750467"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,47 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/30">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/30#indv_0.13330345959954093">
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/person/</j.0:uriSpace>
+    <j.0:vocabulary>http://linkedevents.org/ontology/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/birthtime/</j.0:uriSpace>
+    <j.0:triples>428035</j.0:triples>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/findingaid/</j.0:uriSpace>
+    <j.0:vocabulary>http://erlangen-crm.org/current/</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/NET/c4dm/timeline.owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/birth/</j.0:uriSpace>
+    <j.0:uriSpace>file:///home/libadmin/salda/rdf/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/organization/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.openarchives.org/ore/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/conceptscheme/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/NET/c4dm/timeline.owl#</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/place/</j.0:uriSpace>
+    <j.0:uriSpace>http://reference.data.gov.uk/id/year/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/repository/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/extent/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/death/nra/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/deathtime/nra/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://data.archiveshub.ac.uk/def/</j.0:vocabulary>
+    <j.0:uriSpace>http://reference.data.gov.uk/id/month/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2006/time#</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/concept/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/level/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/creationtime/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/archivalresource/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/NET/c4dm/event.owl#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.lib.sussex.ac.uk/archive/id/creation/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/vocab/bio/0.1/</j.0:vocabulary>
+  </rdf:Description>
+</rdf:RDF>

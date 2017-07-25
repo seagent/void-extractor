@@ -1,0 +1,23 @@
+SPECIAL DATASETS count: 
+http://linkedgeodata.org/sparql/ 265189972
+http://miuras.inf.um.es/sparql 39854314
+http://data.oceandrilling.org/sparql 38848912
+http://dbpedia.org/sparql 235151225
+http://rn.bio2rdf.org/sparql 49931705
+http://cpd.bio2rdf.org/sparql 49931705
+http://uniparc.bio2rdf.org/sparql 111883479
+http://semantic.eea.europa.eu/sparql 73236734
+http://lod.sztaki.hu/sparql 30961024
+http://aemet.linkeddata.es/sparql 32031276
+http://live.dbpedia.org/sparql 273968975
+http://ecowlim.tfri.gov.tw/sparql/query 32316023
+http://gl.bio2rdf.org/sparql 49931705
+http://lsd.taxonconcept.org/sparql 39609669
+http://kegg.bio2rdf.org/sparql 49931705
+http://dr.bio2rdf.org/sparql 49931705
+http://cr.eionet.europa.eu/sparql 218691259
+http://affymetrix.bio2rdf.org/sparql 30635795
+http://data.allie.dbcls.jp/sparql 103500954
+http://lod.b3kat.de/sparql 573189368
+http://live.dbpedia.org/sparql/ 273968975
+

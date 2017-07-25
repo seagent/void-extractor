@@ -1,0 +1,41 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/19#indv_0.3525345343759314">
+    <j.0:vocabulary>http://open.vocab.org/terms/</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/traffic-scotland/incidents/</j.0:uriSpace>
+    <j.0:uriSpace>http://api.talis.com/stores/trafficscotland/items/</j.0:uriSpace>
+    <j.0:triples>40798</j.0:triples>
+    <j.0:uriSpace>http://trafficscotland.dataincubator.org/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/net/</j.0:uriSpace>
+    <j.0:vocabulary>http://schemas.talis.com/2005/dir/schema#</j.0:vocabulary>
+    <j.0:uriSpace>http://trafficscotland.dataincubator.org/organisations/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/traffic-scotland/organisations/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/traffic-scotland/roads/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/net/compass#</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/vocab/changeset/schema#</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.kasabi.com/dataset/traffic-scotland/reports/</j.0:uriSpace>
+    <j.0:uriSpace>http://trafficscotland.dataincubator.org/incidents/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://purl.org/ontologies/road-traffic/</j.0:vocabulary>
+    <j.0:uriSpace>http://trafficscotland.dataincubator.org/roads/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.ordnancesurvey.co.uk/id/</j.0:uriSpace>
+    <j.0:vocabulary>http://data.ordnancesurvey.co.uk/ontology/spatialrelations/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/vocab/vann/</j.0:vocabulary>
+    <j.0:vocabulary>http://rdfs.org/ns/void#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2007/ont/httph#</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/net/compass#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:vocabulary>
+    <j.0:uriSpace>http://trafficscotland.dataincubator.org/reports/current-incidents/</j.0:uriSpace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+</rdf:RDF>

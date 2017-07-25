@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6506778145692913">
+    <j.0:triples>15000000</j.0:triples>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://id.ndl.go.jp/auth/ndla/</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://www.w3.org/2008/05/skos-xl#</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://RDVocab.info/ElementsGr2/</j.0:vocabulary>
+    <j.0:uriSpace>http://id.ndl.go.jp/auth/ndlna/</j.0:uriSpace>
+    <j.0:vocabulary>http://ndl.go.jp/dcndl/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://id.ndl.go.jp/auth/entity/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.6845325990224455">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://xmlns.com/foaf/0.1/primaryTopic"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/0#indv_0.6506778145692913"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.6506778145692913"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.6506778145692913"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

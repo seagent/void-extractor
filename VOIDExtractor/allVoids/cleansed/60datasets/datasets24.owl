@@ -1,0 +1,40 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://datasets/24#indv_0.12035702880333687">
+    <j.0:vocabulary>http://rdfs.org/ns/void#</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://dbpedia.org/ontology/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2003/01/geo/wgs84_pos#</j.0:vocabulary>
+    <j.0:vocabulary>http://dbpedia.org/property/start/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.w3.org/2002/07/owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://en.wikipedia.org/wiki/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.georss.org/georss/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:uriSpace>http://www.johngoodwin.me.uk/family/</j.0:uriSpace>
+    <j.0:vocabulary>http://dbpedia.org/ontology/PopulatedPlace/</j.0:vocabulary>
+    <j.0:vocabulary>http://dbpedia.org/property/</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/vocab/relationship/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.johngoodwin.me.uk/</j.0:uriSpace>
+    <j.0:uriSpace>http://xmlns.com/foaf/0.1/</j.0:uriSpace>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://purl.org/NET/c4dm/event.owl#</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/resource/</j.0:uriSpace>
+    <j.0:uriSpace>http://purl.org/vocab/bio/0.1/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/vocab/bio/0.1/</j.0:vocabulary>
+    <j.0:triples>177867</j.0:triples>
+    <j.0:uriSpace>http://api.talis.com/stores/jgoodwin-genealogy/items/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/NET/c4dm/event.owl#</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/vocab/relationship/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:uriSpace>http://mpii.de/yago/resource/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://155.223.24.47:8990/generic/sparql</j.0:sparqlEndpoint>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/24">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>
