@@ -9,10 +9,8 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
-
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
 
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
@@ -21,11 +19,14 @@ import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.util.FileUtils;
 
+import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
+import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
+
 public class VOIDReducerTest {
 
 	private List<OntModel> voids;
 
-	// @Before
+//	 @Before
 	public void before() throws Exception {
 		readVoidModels();
 	}
@@ -33,13 +34,13 @@ public class VOIDReducerTest {
 	private void readVoidModels() throws Exception {
 		voids = new ArrayList<OntModel>();
 		List<VOIDIndividualOntology> readModels = new VOIDExtractor(null)
-				.readFilesIntoModel(FileOperations.DEFECTED_VOIDS);
+				.readFilesIntoModel(FileOperations.AVAILABLE_VOIDS);
 		for (VOIDIndividualOntology voidIndividualOntology : readModels) {
 			voids.add(voidIndividualOntology.getOntModel());
 		}
 	}
 
-	// @Test
+//	 @Test
 	public void reduceVOIDs() throws Exception {
 
 		VOIDReducer voidReducer = new VOIDReducer();

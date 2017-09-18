@@ -1,0 +1,19 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/8">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/8#indv_0.873385148822878">
+    <j.0:uriSpace>http://data.linkedmdb.org/resource/film_crew_gig/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.linkedmdb.org/resource/country/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.linkedmdb.org/resource/film_film_distributor_relationship/</j.0:uriSpace>
+    <j.0:vocabulary>http://data.linkedmdb.org/resource/movie/</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:2500/sparql/</j.0:sparqlEndpoint>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+</rdf:RDF>

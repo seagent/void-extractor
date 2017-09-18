@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/4">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/4#indv_0.7865653592737232">
+    <j.0:subset rdf:resource="http://datasets/4#indv_0.792471098140981"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/4#indv_0.792471098140981"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/4#indv_0.792471098140981"/>
+    <j.0:linkPredicate rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/4#indv_0.792471098140981">
+    <j.0:uriSpace>http://dbtune.org/jamendo/artist/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbtune.org/jamendo/record/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbtune.org/jamendo/track/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/ontology/mo/</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:5000/sparql/</j.0:sparqlEndpoint>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,18 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/1#indv_0.11416704203648698">
+    <j.0:uriSpace>http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/</j.0:uriSpace>
+    <j.0:uriSpace>http://www4.wiwiss.fu-berlin.de/drugbank/resource/targets/</j.0:uriSpace>
+    <j.0:vocabulary>http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:8000/sparql/</j.0:sparqlEndpoint>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/1">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

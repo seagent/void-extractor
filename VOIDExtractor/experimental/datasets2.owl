@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/2#indv_0.4431099937608052">
+    <j.0:uriSpace>http://dbpedia.org/resource/MD/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/resource/Take_Away_/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/resource/F/</j.0:uriSpace>
+    <j.0:uriSpace>http://dbpedia.org/resource/</j.0:uriSpace>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:7000/sparql/</j.0:sparqlEndpoint>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/2">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/2#indv_0.18522768312011162">
+    <j.0:subset rdf:resource="http://datasets/2#indv_0.4431099937608052"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/2#indv_0.4431099937608052"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/2#indv_0.4431099937608052"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2004/02/skos/core#subject"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -60,70 +60,70 @@ public class LinkPredicateExtractionTest {
 				FileOperations.REFRESHED_VOIDS);
 	}
 
-	@Test
-	public void getLinkPredicatesOfOneEndpointForGivenUriSpace()
-			throws Exception {
-		// generate query string
-		String linkPredicateQuery = linkPredicateExtractor
-				.generateLinkPredicateQueryOfObject(
-						ExampleVocabulary.GEONAMES_URI_SPACE, true);
-		// execute query on given sparql endpoint
-		QueryExecution queryExecution = QueryExecutionFactory.sparqlService(
-				"http://155.223.24.47:8891/nytimes/sparql", linkPredicateQuery);
-		ResultSet resultSet = queryExecution.execSelect();
-
-		// iterate on result set
-		List<String> solutionList = new ArrayList<String>();
-		while (resultSet.hasNext()) {
-			QuerySolution querySolution = (QuerySolution) resultSet.next();
-			// add solution to list
-			solutionList.add(querySolution.get("p").asResource().getURI());
-		}
-		// check solution size
-		assertEquals(5, solutionList.size());
-	}
+//	@Test
+//	public void getLinkPredicatesOfOneEndpointForGivenUriSpace()
+//			throws Exception {
+//		// generate query string
+//		String linkPredicateQuery = linkPredicateExtractor
+//				.generateLinkPredicateQueryOfObject(
+//						ExampleVocabulary.GEONAMES_URI_SPACE, true);
+//		// execute query on given sparql endpoint
+//		QueryExecution queryExecution = QueryExecutionFactory.sparqlService(
+//				"http://155.223.24.47:8891/nytimes/sparql", linkPredicateQuery);
+//		ResultSet resultSet = queryExecution.execSelect();
+//
+//		// iterate on result set
+//		List<String> solutionList = new ArrayList<String>();
+//		while (resultSet.hasNext()) {
+//			QuerySolution querySolution = (QuerySolution) resultSet.next();
+//			// add solution to list
+//			solutionList.add(querySolution.get("p").asResource().getURI());
+//		}
+//		// check solution size
+//		assertEquals(5, solutionList.size());
+//	}
 
 	@Test
 	public void updateLinkPredicateOfOneDataset() throws Exception {
 
-		// adjust query type
-		boolean isQueryForObject = false;
-
-		// update and check for geonames uri space
-		List<Individual> geoLinks = linkPredicateExtractor
-				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
-						ExampleVocabulary.GEONAMES_URI_SPACE, 70, 66,
-						isQueryForObject);
-		checkLinksets(geoLinks, allVoidIndvModels.get(66),
-				allVoidIndvModels.get(70), isQueryForObject);
-
-		// update and check for drugbank uri space
-		List<Individual> drugbankLinks = linkPredicateExtractor
-				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
-						ExampleVocabulary.DRUGBANK_URI_SPACE, 69, 66,
-						isQueryForObject);
-		checkLinksets(drugbankLinks, allVoidIndvModels.get(66),
-				allVoidIndvModels.get(69), isQueryForObject);
-
-		// update and check for chebi uri space
-		List<Individual> chebiLinks = linkPredicateExtractor
-				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
-						ExampleVocabulary.CHEBI_URI_SPACE, 68, 66,
-						isQueryForObject);
-		checkLinksets(chebiLinks, allVoidIndvModels.get(66),
-				allVoidIndvModels.get(68), isQueryForObject);
-
-		// update and check for kegg uri space
-		List<Individual> keggLinks = linkPredicateExtractor
-				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
-						ExampleVocabulary.KEGG_URI_SPACE, 67, 66,
-						isQueryForObject);
-		checkLinksets(keggLinks, allVoidIndvModels.get(66),
-				allVoidIndvModels.get(67), isQueryForObject);
-
-		// write updated void model into file after all.
-		FileOperations.writeVoidModelFile(allVoidIndvModels.get(66)
-				.getOntModel(), 66, FileOperations.REFRESHED_VOIDS);
+//		// adjust query type
+//		boolean isQueryForObject = false;
+//
+//		// update and check for geonames uri space
+//		List<Individual> geoLinks = linkPredicateExtractor
+//				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
+//						ExampleVocabulary.GEONAMES_URI_SPACE, 70, 66,
+//						isQueryForObject);
+//		checkLinksets(geoLinks, allVoidIndvModels.get(66),
+//				allVoidIndvModels.get(70), isQueryForObject);
+//
+//		// update and check for drugbank uri space
+//		List<Individual> drugbankLinks = linkPredicateExtractor
+//				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
+//						ExampleVocabulary.DRUGBANK_URI_SPACE, 69, 66,
+//						isQueryForObject);
+//		checkLinksets(drugbankLinks, allVoidIndvModels.get(66),
+//				allVoidIndvModels.get(69), isQueryForObject);
+//
+//		// update and check for chebi uri space
+//		List<Individual> chebiLinks = linkPredicateExtractor
+//				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
+//						ExampleVocabulary.CHEBI_URI_SPACE, 68, 66,
+//						isQueryForObject);
+//		checkLinksets(chebiLinks, allVoidIndvModels.get(66),
+//				allVoidIndvModels.get(68), isQueryForObject);
+//
+//		// update and check for kegg uri space
+//		List<Individual> keggLinks = linkPredicateExtractor
+//				.createLinksetForGivenIndividualOntology(allVoidIndvModels,
+//						ExampleVocabulary.KEGG_URI_SPACE, 67, 66,
+//						isQueryForObject);
+//		checkLinksets(keggLinks, allVoidIndvModels.get(66),
+//				allVoidIndvModels.get(67), isQueryForObject);
+//
+//		// write updated void model into file after all.
+//		FileOperations.writeVoidModelFile(allVoidIndvModels.get(66)
+//				.getOntModel(), 66, FileOperations.REFRESHED_VOIDS);
 	}
 
 	/**
@@ -168,41 +168,41 @@ public class LinkPredicateExtractionTest {
 
 	@Test
 	public void updateLinkPredicatesOAllfDatasets() throws Exception {
-		for (int i = 0; i < allVoidIndvModels.size(); i++) {
-
-			// check void is not in the broken void list
-			if (!brokenVoidNumberList.contains(i)) {
-				// adjust query type
-				boolean isQueryForObject = false;
-
-				VOIDIndividualOntology voidIndividualOntology = allVoidIndvModels
-						.get(i);
-
-				// update and check for geonames uri space
-				List<Individual> geoLinks = linkPredicateExtractor
-						.createLinksetForGivenIndividualOntology(
-								allVoidIndvModels,
-								ExampleVocabulary.JAMENDO_URI_SPACE, 72, i,
-								isQueryForObject);
-				checkLinksets(geoLinks, voidIndividualOntology,
-						allVoidIndvModels.get(72), isQueryForObject);
-
-				// update and check for chebi uri space
-				List<Individual> drugbankLinks = linkPredicateExtractor
-						.createLinksetForGivenIndividualOntology(
-								allVoidIndvModels,
-								ExampleVocabulary.SW_DOGFOOD_URI_SPACE, 71, i,
-								isQueryForObject);
-				checkLinksets(drugbankLinks, voidIndividualOntology,
-						allVoidIndvModels.get(71), isQueryForObject);
-
-				// write updated void model into file after all.
-				FileOperations.writeVoidModelFile(
-						voidIndividualOntology.getOntModel(), i,
-						FileOperations.REFRESHED_VOIDS);
-			}
-
-		}
+//		for (int i = 0; i < allVoidIndvModels.size(); i++) {
+//
+//			// check void is not in the broken void list
+//			if (!brokenVoidNumberList.contains(i)) {
+//				// adjust query type
+//				boolean isQueryForObject = false;
+//
+//				VOIDIndividualOntology voidIndividualOntology = allVoidIndvModels
+//						.get(i);
+//
+//				// update and check for geonames uri space
+//				List<Individual> geoLinks = linkPredicateExtractor
+//						.createLinksetForGivenIndividualOntology(
+//								allVoidIndvModels,
+//								ExampleVocabulary.JAMENDO_URI_SPACE, 72, i,
+//								isQueryForObject);
+//				checkLinksets(geoLinks, voidIndividualOntology,
+//						allVoidIndvModels.get(72), isQueryForObject);
+//
+//				// update and check for chebi uri space
+//				List<Individual> drugbankLinks = linkPredicateExtractor
+//						.createLinksetForGivenIndividualOntology(
+//								allVoidIndvModels,
+//								ExampleVocabulary.SW_DOGFOOD_URI_SPACE, 71, i,
+//								isQueryForObject);
+//				checkLinksets(drugbankLinks, voidIndividualOntology,
+//						allVoidIndvModels.get(71), isQueryForObject);
+//
+//				// write updated void model into file after all.
+//				FileOperations.writeVoidModelFile(
+//						voidIndividualOntology.getOntModel(), i,
+//						FileOperations.REFRESHED_VOIDS);
+//			}
+//
+//		}
 	}
 
 }

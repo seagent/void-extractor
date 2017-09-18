@@ -23,7 +23,12 @@ public class ExampleVocabulary {
 	public static final String CHEBI_URI_SPACE = "http://bio2rdf.org/";
 	public static final String KEGG_URI_SPACE = "http://bio2rdf.org/";
 	public static final String DRUGBANK_URI_SPACE = "http://www4.wiwiss.fu-berlin.de/drugbank/";
-	public static final String JAMENDO_URI_SPACE = "http://www.jamendo.com/get/";
+	public static final String JAMENDO_URI_SPACE = "http://dbtune.org/jamendo/";
 	public static final String SW_DOGFOOD_URI_SPACE = "http://data.semanticweb.org/";
+	public static final String NYTIMES_URI_SPACE = "http://data.nytimes.com/";
+	public static final String SP2B_URI_SPACE = "http://localhost/publications/";
+	public static final String SP2B_URI_SPACE_1 = "http://localhost/publications/inprocs/";
+	public static final String SP2B_URI_SPACE_2 = "http://localhost/publications/articles/";
+	public static final String SP2B_VOC = "http://localhost/vocabulary/bench/";
 
 }

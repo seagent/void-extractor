@@ -1,0 +1,74 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9322597490810927">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:9000/sparql/</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://purl.org/dc/terms/</j.0:vocabulary>
+    <j.0:vocabulary>http://www.w3.org/2004/02/skos/core#</j.0:vocabulary>
+    <j.0:vocabulary>http://creativecommons.org/ns#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.nytimes.com/</j.0:uriSpace>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.20370102327213835">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/2#indv_0.4431099937608052"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.06405893690555586">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/7#indv_0.6333201922277539"/>
+    <j.0:linkPredicate rdf:resource="http://www.geonames.org/ontology#neighbouringFeatures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.2542939663813879">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/2#indv_0.4431099937608052"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.24903025719205962">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/7#indv_0.6333201922277539"/>
+    <j.0:linkPredicate rdf:resource="http://www.geonames.org/ontology#childrenFeatures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.5760965562360415">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/7#indv_0.6333201922277539"/>
+    <j.0:linkPredicate rdf:resource="http://www.geonames.org/ontology#parentFeature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7248757621678147">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/2#indv_0.4431099937608052"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.9309333539532488">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/7#indv_0.6333201922277539"/>
+    <j.0:linkPredicate rdf:resource="http://www.geonames.org/ontology#nearbyFeatures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.7585843198666551">
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/7#indv_0.6333201922277539"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/0#indv_0.3128131320018581">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/2#indv_0.4431099937608052"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+    <j.0:subset rdf:resource="http://datasets/0#indv_0.9322597490810927"/>
+  </rdf:Description>
+</rdf:RDF>

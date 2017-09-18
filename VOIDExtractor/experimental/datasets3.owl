@@ -1,0 +1,39 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/3#indv_0.20206345080342458">
+    <j.0:subset rdf:resource="http://datasets/3#indv_0.6361887101427902"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/3#indv_0.6361887101427902"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/3#indv_0.6361887101427902"/>
+    <j.0:linkPredicate rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/3">
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/3#indv_0.6361887101427902">
+    <j.0:uriSpace>http://data.semanticweb.org/conference/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/person/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/organization/</j.0:uriSpace>
+    <j.0:vocabulary>http://swrc.ontoware.org/ontology#</j.0:vocabulary>
+    <j.0:vocabulary>http://purl.org/ontology/bibo/</j.0:vocabulary>
+    <j.0:vocabulary>http://data.semanticweb.org/ns/swc/ontology#</j.0:vocabulary>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:uriSpace>http://www.cs.sunysb.edu/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.eswc2006.org/topics/#</j.0:uriSpace>
+    <j.0:uriSpace>http://www.icmc.usp.br/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.csc.liv.ac.uk/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.eswc2007.org/pdf/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.cs.man.ac.uk/~bmotik/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.dis.uniroma1.it/~lenzerin/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.stanford.edu/~natalya/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:5500/sparql/</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://www.cs.vu.nl/</j.0:uriSpace>
+  </rdf:Description>
+</rdf:RDF>

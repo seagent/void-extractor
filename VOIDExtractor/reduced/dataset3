@@ -1,0 +1,88 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/3#indv_0.20206345080342458">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Linkset"/>
+    <j.0:linkPredicate rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+    <j.0:objectsTarget rdf:resource="http://datasets/3#indv_0.6361887101427902"/>
+    <j.0:subjectsTarget rdf:resource="http://datasets/3#indv_0.6361887101427902"/>
+    <j.0:subset rdf:resource="http://datasets/3#indv_0.6361887101427902"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/3#indv_0.6361887101427902">
+    <j.0:uriSpace>http://www.dis.uniroma1.it/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/esoe/2007/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/isemantics/2009/paper/main/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.eswc2007.org/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/iwod/</j.0:uriSpace>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <j.0:vocabulary>http://swrc.ontoware.org/ontology#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/scripting/2008/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2008/track/research/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/iswc-aswc/2007/tracks/research/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/web_of_data/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/fis/2010/paper/semantic_technologies/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/first/2007/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.cs.sunysb.edu/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/ores/2010/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2008/track/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/internet-monetization/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/owled/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.icmc.usp.br/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/mobility/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/fis/2010/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/iswc/2009/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/security-and-privacy/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2006/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.csc.liv.ac.uk/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/onto/</j.0:uriSpace>
+    <j.0:vocabulary>http://purl.org/ontology/bibo/</j.0:vocabulary>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/fis/2010/paper/network_architecture_protocols/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/semantic-web/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/inuse/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/data-mining/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2010/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/iswc/2010/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/social_web/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/semwebdesign/2007/</j.0:uriSpace>
+    <j.0:vocabulary>http://data.semanticweb.org/ns/swc/ontology#</j.0:vocabulary>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/iswc/2010/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.eswc2006.org/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/organization/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2009/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/fis/2010/paper/internet_of_services_things_content/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.cs.man.ac.uk/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/VISSW/2009/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/mobility/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/ores/2010/paper/main/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/iswc/2008/paper/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:5500/sparql/</j.0:sparqlEndpoint>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/iswc/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/LDOW/2008/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/industrial/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/natures/2008/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/</j.0:uriSpace>
+    <j.0:vocabulary>http://xmlns.com/foaf/0.1/</j.0:vocabulary>
+    <j.0:uriSpace>http://www.cs.vu.nl/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/iswc-aswc/2007/tracks/doctoral-consortium/</j.0:uriSpace>
+    <j.0:uriSpace>http://www.stanford.edu/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/VISSW/2010/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/services/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/workshop/swsc/2008/paper/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2010/paper/phd_symposium/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/eswc/2008/</j.0:uriSpace>
+    <j.0:uriSpace>http://data.semanticweb.org/conference/www/2008/track/xml-WebData/</j.0:uriSpace>
+  </rdf:Description>
+</rdf:RDF>

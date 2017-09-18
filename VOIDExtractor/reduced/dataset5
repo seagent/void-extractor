@@ -1,0 +1,17 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://rdfs.org/ns/void#" > 
+  <rdf:Description rdf:about="http://datasets/5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://rdfs.org/ns/void#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://datasets/5#indv_0.10304159140056479">
+    <j.0:uriSpace>http://bio2rdf.org/</j.0:uriSpace>
+    <j.0:sparqlEndpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://localhost:4000/sparql/</j.0:sparqlEndpoint>
+    <j.0:vocabulary>http://purl.org/dc/elements/1.1/</j.0:vocabulary>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+</rdf:RDF>
