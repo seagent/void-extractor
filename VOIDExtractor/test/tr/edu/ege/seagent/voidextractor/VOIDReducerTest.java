@@ -9,7 +9,6 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import com.hp.hpl.jena.ontology.OntModel;
@@ -19,8 +18,8 @@ import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.util.FileUtils;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDOntologyVocabulary;
 
 public class VOIDReducerTest {
 

@@ -15,11 +15,6 @@ import java.util.Vector;
 
 import org.apache.log4j.Logger;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
-import tr.edu.ege.seagent.voidextractor.exception.NoDatasetException;
-import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
-
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.ontology.OntModelSpec;
@@ -41,6 +36,11 @@ import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
 import com.hp.hpl.jena.vocabulary.XSD;
 
+import tr.edu.ege.seagent.voidextractor.exception.NoDatasetException;
+import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDOntologyVocabulary;
+
 
 public class VOIDExtractor {
 
@@ -49,7 +49,7 @@ public class VOIDExtractor {
 	private static final Property SPARQL_ENDPOINT_PRP = ResourceFactory
 			.createProperty("http://rdfs.org/ns/void#sparqlEndpoint");
 
-	private static int MAX_VOID_SIZE = 73;
+	private static int MAX_VOID_SIZE = 74;
 
 	private List<String> bigDatasetList = new Vector<String>();
 

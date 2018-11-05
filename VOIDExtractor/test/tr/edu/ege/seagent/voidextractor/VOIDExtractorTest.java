@@ -21,12 +21,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
-import tr.edu.ege.seagent.voidextractor.exception.NoDatasetException;
-import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
-import tr.edu.ege.seagent.wodqa.QueryVocabulary;
-
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.ontology.OntModelSpec;
@@ -42,6 +36,12 @@ import com.hp.hpl.jena.rdf.model.ResIterator;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.vocabulary.RDF;
+
+import tr.edu.ege.seagent.voidextractor.exception.NoDatasetException;
+import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
+import tr.edu.ege.seagent.wodqa.QueryVocabulary;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDOntologyVocabulary;
 
 public class VOIDExtractorTest {
 

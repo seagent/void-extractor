@@ -6,16 +6,16 @@ import java.util.List;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.voidextractor.FileOperations;
-import tr.edu.ege.seagent.voidextractor.Queries;
-import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
-
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.QueryFactory;
+
+import tr.edu.ege.seagent.voidextractor.FileOperations;
+import tr.edu.ege.seagent.voidextractor.Queries;
+import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
 
 public class PaperQueryEvaluationTests extends AbstractEvaluationTest {
 

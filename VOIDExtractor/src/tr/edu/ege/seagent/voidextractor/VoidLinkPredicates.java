@@ -2,9 +2,9 @@ package tr.edu.ege.seagent.voidextractor;
 
 import java.util.List;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-
 import com.hp.hpl.jena.ontology.Individual;
+
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
 
 public class VoidLinkPredicates {
 	private VOIDIndividualOntology linkerIndividualOntology;

@@ -12,10 +12,7 @@ import java.util.Vector;
 
 import org.junit.Test;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
-import tr.edu.ege.seagent.wodqa.VOIDCreator;
-
+import com.hp.hpl.jena.graph.Graph;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.ontology.OntModelSpec;
@@ -33,6 +30,10 @@ import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.tdb.TDBFactory;
+
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDCreator;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDOntologyVocabulary;
 
 public class BigDatasetExtractionTest {
 	@Test
@@ -119,7 +120,9 @@ public class BigDatasetExtractionTest {
 			str = VOIDExtractor.getPrefixOfURI(str);
 			if (!vocabularies.contains(str)) {
 				vocabularies.add(str);
-				indvOnt.addDatasetVocabularyProperty(geodataDataset, str);
+				indvOnt.addDatasetVocabularyProperty(geodataDataset, 
+
+str);
 			}
 		}
 		in.close();
@@ -169,6 +172,8 @@ public class BigDatasetExtractionTest {
 		// create dataset with endpoint...
 		Individual linkedMDBDataset = linkedMDBindvOnt.createDataset(
 				"http://data.linkedmdb.org/sparql", null, null);
+
+
 		// manual addied vocabularies
 		linkedMDBindvOnt.addDatasetVocabularyProperty(linkedMDBDataset,
 				ExampleVocabulary.LINKED_MDB_VOC);

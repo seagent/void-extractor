@@ -8,19 +8,17 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntModel;
-import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
-import com.hp.hpl.jena.query.QueryFactory;
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
+
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
 
 public class LinkPredicateExtractor {
 
@@ -42,11 +40,15 @@ public class LinkPredicateExtractor {
 	 */
 	public List<Individual> createLinksetForGivenIndividualOntology(List<VOIDIndividualOntology> allVoidIndvModels,
 			String[] uriSpaces, int referrer) {
+		String[] keywords = { "nytimes", "drugbank", "dbpedia", "semanticweb", "jamendo", "bio2rdf", "geonames",
+				"linkedmdb" };
 		VOIDIndividualOntology referrerVOID = allVoidIndvModels.get(referrer);
 		List<Individual> linksetIndividuals = new ArrayList<Individual>();
 		String sparqlServiceEndPoint = "";
 		HashMap<String, Individual> linksetMap = new HashMap<String, Individual>();
-
+		Resource linkPredicate = null;
+		Resource subject = null;
+		RDFNode object = null;
 		try {
 
 			int offsetIncValue = 100000;
@@ -70,13 +72,20 @@ public class LinkPredicateExtractor {
 				while (resultSet.hasNext()) {
 					// TODO: çok daha iyi bir yöntem düşünülecek
 					QuerySolution querySolution = (QuerySolution) resultSet.next();
-					Resource linkPredicate = querySolution.get("p").asResource();
-					Resource subject = querySolution.getResource("s");
-					RDFNode object = querySolution.get("o");
+					linkPredicate = querySolution.get("p").asResource();
+					subject = querySolution.getResource("s");
+					object = querySolution.get("o");
 					for (int referenced = 0; referenced < uriSpaces.length; referenced++) {
 
 						if (referrer != referenced) {
-							if (object.isResource() && object.asResource().getURI().startsWith(uriSpaces[referenced])) {
+							if (object.isURIResource() && containsAny(object.asResource().getURI(), keywords)) {
+								System.out.println("Object: " + object);
+							}
+							if (subject.isURIResource() && containsAny(subject.asResource().getURI(), keywords)) {
+								System.out.println("Subject: " + subject);
+							}
+							if (object.isURIResource()
+									&& object.asResource().getURI().startsWith(uriSpaces[referenced])) {
 								String key = generateKey(referrerVOID, linkPredicate,
 										allVoidIndvModels.get(referenced));
 								if (linksetMap.get(key) == null) {
@@ -86,7 +95,7 @@ public class LinkPredicateExtractor {
 									linksetIndividuals.add(linksetIndv);
 									linksetMap.put(key, linksetIndv);
 								}
-							} else if (subject.getURI().startsWith(uriSpaces[referenced])) {
+							} else if (subject.isURIResource() && subject.getURI().startsWith(uriSpaces[referenced])) {
 								String key = generateKey(allVoidIndvModels.get(referenced), linkPredicate,
 										referrerVOID);
 								if (linksetMap.get(key) == null) {
@@ -113,9 +122,19 @@ public class LinkPredicateExtractor {
 			}
 		} catch (Exception e) {
 			logger.error(e.getMessage());
+			e.printStackTrace();
 		}
 
 		return linksetIndividuals;
+	}
+
+	private boolean containsAny(String uri, String[] keywords) {
+		for (String keyword : keywords) {
+			if (uri.contains(keyword)) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	private String generateKey(VOIDIndividualOntology firstVoid, Resource linkPredicate,

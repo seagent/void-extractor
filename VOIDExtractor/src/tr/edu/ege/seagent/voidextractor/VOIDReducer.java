@@ -7,11 +7,7 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.ricecode.similarity.JaroWinklerStrategy;
-
 import org.apache.log4j.Logger;
-
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
 
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.Property;
@@ -20,6 +16,9 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.StmtIterator;
+
+import net.ricecode.similarity.JaroWinklerStrategy;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDOntologyVocabulary;
 
 public class VOIDReducer {
 

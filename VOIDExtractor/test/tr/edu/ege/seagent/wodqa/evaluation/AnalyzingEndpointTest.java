@@ -11,15 +11,6 @@ import org.apache.log4j.Logger;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
-import tr.edu.ege.seagent.voidextractor.FileOperations;
-import tr.edu.ege.seagent.voidextractor.Queries;
-import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
-import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
-import tr.edu.ege.seagent.wodqa.QueryElementOperations;
-import tr.edu.ege.seagent.wodqa.query.analyzer.QueryAnalyzer;
-
 import com.hp.hpl.jena.graph.Triple;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.query.Query;
@@ -32,6 +23,15 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.NodeIterator;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
+
+import tr.edu.ege.seagent.voidextractor.FileOperations;
+import tr.edu.ege.seagent.voidextractor.Queries;
+import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
+import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
+import tr.edu.ege.seagent.wodqa.QueryElementOperations;
+import tr.edu.ege.seagent.wodqa.query.analyzer.QueryAnalyzer;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDOntologyVocabulary;
 
 public class AnalyzingEndpointTest {
 

@@ -9,17 +9,17 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.voidextractor.FileOperations;
-import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
-import tr.edu.ege.seagent.wodqa.query.analyzer.QueryAnalyzer;
-import tr.edu.ege.seagent.wodqa.query.analyzer.RelevantType;
-
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.vocabulary.OWL;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
+
+import tr.edu.ege.seagent.voidextractor.FileOperations;
+import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
+import tr.edu.ege.seagent.wodqa.query.analyzer.QueryAnalyzer;
+import tr.edu.ege.seagent.wodqa.query.analyzer.RelevantType;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
 
 public class AnalyzeWithAskOptimizationTest {
 

@@ -4,14 +4,14 @@ import java.net.MalformedURLException;
 import java.util.List;
 import java.util.Vector;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.voidextractor.component.LinksetProperties;
-import tr.edu.ege.seagent.wodqa.VOIDCreator;
-
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.ResourceFactory;
+
+import tr.edu.ege.seagent.voidextractor.component.LinksetProperties;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDCreator;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
 
 public class RandomVOIDProducer {
 

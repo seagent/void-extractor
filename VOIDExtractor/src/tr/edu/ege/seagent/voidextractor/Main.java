@@ -1,14 +1,9 @@
 package tr.edu.ege.seagent.voidextractor;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Arrays;
 import java.util.List;
-import java.util.Vector;
 
-import com.hp.hpl.jena.ontology.Individual;
-
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
+import tr.edu.ege.seagent.wodqa.voiddocument.ExampleVocabulary;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
 
 public class Main {
 
@@ -24,15 +19,22 @@ public class Main {
 			"http://localhost:3500/sparql/" };
 
 	public static void main(String[] args) throws Exception {
+//		String query = "SELECT DISTINCT ?o WHERE {?s <"+OWL.sameAs.getURI()
+//				+ "> ?o. FILTER REGEX (str(?o),\"^http://data.linkedmdb.org/resource/\")}";
+//		ResultSet resultSet = QueryExecutionFactory.sparqlService("http://localhost:7000/sparql/", query).execSelect();
+//		ResultSetFormatter.out(resultSet);
+
+		// FIXME: SELECT * WHERE {?s ?p ?o } LIMIT 100000 OFFSET 14200000 sorgusunda
+		// sıkıntı var
 		// VOIDExtractor voidExtractor = new VOIDExtractor(Arrays.asList(endpoints));
 		// voidExtractor.performVOIDAnalyzeAllScenario("experimental");
 		updateLinkPredicatesOfAllfDatasets();
 	}
 
 	public static void updateLinkPredicatesOfAllfDatasets() throws Exception {
-		List<VOIDIndividualOntology> allVoidIndvModels = new VOIDExtractor(null).readFilesIntoModel("experimental");
+		List<VOIDIndividualOntology> allVoidIndvModels = new VOIDExtractor(null).readFilesIntoModel("allVoids/cleansed/09datasets");
 		LinkPredicateExtractor linkPredicateExtractor = new LinkPredicateExtractor();
-		int i = 0;
+		int i = 9;
 		// for (int i = 0; i < allVoidIndvModels.size(); i++) {
 
 		VOIDIndividualOntology voidIndividualOntology = allVoidIndvModels.get(i);

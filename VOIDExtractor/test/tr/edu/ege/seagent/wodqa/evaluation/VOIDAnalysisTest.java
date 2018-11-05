@@ -11,11 +11,6 @@ import org.apache.log4j.Logger;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.voidextractor.FileOperations;
-import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
-import tr.edu.ege.seagent.wodqa.QueryVocabulary;
-
 import com.hp.hpl.jena.query.ARQ;
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
@@ -31,6 +26,11 @@ import com.hp.hpl.jena.sparql.algebra.Op;
 import com.hp.hpl.jena.sparql.algebra.OpAsQuery;
 import com.hp.hpl.jena.sparql.core.DatasetGraphFactory;
 import com.hp.hpl.jena.sparql.util.Context;
+
+import tr.edu.ege.seagent.voidextractor.FileOperations;
+import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
+import tr.edu.ege.seagent.wodqa.QueryVocabulary;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
 
 public class VOIDAnalysisTest {
 

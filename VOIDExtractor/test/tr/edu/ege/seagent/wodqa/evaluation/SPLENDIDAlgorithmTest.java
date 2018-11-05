@@ -7,17 +7,6 @@ import java.util.Vector;
 import org.junit.Before;
 import org.junit.Test;
 
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDIndividualOntology;
-import tr.edu.ege.seagent.dataset.vocabulary.VOIDOntologyVocabulary;
-import tr.edu.ege.seagent.voidextractor.FileOperations;
-import tr.edu.ege.seagent.voidextractor.Queries;
-import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
-import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
-import tr.edu.ege.seagent.wodqa.QueryElementOperations;
-import tr.edu.ege.seagent.wodqa.QueryVocabulary;
-import tr.edu.ege.seagent.wodqa.query.analyzer.QueryAnalyzer;
-import tr.edu.ege.seagent.wodqa.voiddocument.VoidConceptOperations;
-
 import com.hp.hpl.jena.graph.Node;
 import com.hp.hpl.jena.graph.Triple;
 import com.hp.hpl.jena.ontology.OntModel;
@@ -28,6 +17,17 @@ import com.hp.hpl.jena.query.QueryFactory;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.Model;
+
+import tr.edu.ege.seagent.voidextractor.FileOperations;
+import tr.edu.ege.seagent.voidextractor.Queries;
+import tr.edu.ege.seagent.voidextractor.VOIDExtractor;
+import tr.edu.ege.seagent.voidextractor.thread.EndpointTimeoutThread;
+import tr.edu.ege.seagent.wodqa.QueryElementOperations;
+import tr.edu.ege.seagent.wodqa.QueryVocabulary;
+import tr.edu.ege.seagent.wodqa.query.analyzer.QueryAnalyzer;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDIndividualOntology;
+import tr.edu.ege.seagent.wodqa.voiddocument.VOIDOntologyVocabulary;
+import tr.edu.ege.seagent.wodqa.voiddocument.VoidConceptOperations;
 
 /**
  * This test executes SPLENDID algorithm to analyze relevant datasets for
